@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+.public_menu_header {
+    height: 44px;
+    line-height: 44px;
+    background: #fff;
+    border-bottom: 1px solid #e4e4e4;
+    width: 100%;
+    position: relative;
+}
+.public_menu_h_con {
+    text-align: center;
+    font-size: 18px;
+    color: #db4852;
+    margin: 0 44px;
+}
+.public_menu_h_home {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 0;
+    left: 0;
+}
+.public_menu_h_menu {
+    position: absolute;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #db4852;
+    border-radius: 5px;
+    padding: 0 5px;
+    display: block;
+    color: #db4852;
+    right: 10px;
+    top: 9px;
+}
+.public_menu_h_home:after {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url(/statics/ffsm_2019/index/images/ahome.png);
+}

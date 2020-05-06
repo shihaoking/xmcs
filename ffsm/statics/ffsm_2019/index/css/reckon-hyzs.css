@@ -1,0 +1,186 @@
+﻿@charset "utf-8";
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+/* 公共宽度 */
+.comWidth {
+    width: 95%;
+    margin: 0 auto;
+}
+.com-bg {
+    position: relative;
+    padding: .48rem 0;
+}
+.com-bg::before {
+    top: 0;
+    background: url('../images/hyzs-topbg.png');
+}
+.com-bg::after {
+    bottom: 0;
+    background: url('../images/hyzs-bottombg.png');
+}
+.com-bg::before,
+.com-bg::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: .48rem;
+    background-size: 100% 100%;
+}
+.lr-border {
+    border-left: 2px solid #f67565;
+    border-right: 2px solid #f67565;
+}
+.title-icon {
+    position: absolute;
+    width: 4.36rem;
+    height: .82rem;
+    font-size: .3rem;
+    color: #f25039;
+    text-align: center;
+    line-height: .82rem;
+    background: url('../images/hyzs-titlebg.png');
+    background-size: 100% 100%;
+    left: 50%;
+    margin-left: -2.18rem;
+    top: -.41rem;
+}
+/* 月老 */
+.matchmaker {
+    width: 97%;
+    margin: .13rem auto;
+}
+/* 男女双方的信息 */
+.information{
+    width: 100%;
+    margin-top: .7rem;
+}
+.information-list {
+    padding-top: .05rem;
+}
+.left-title {
+    font-size: .35rem;
+    color: #161616;
+    padding-left: .36rem;
+    height: 100%;
+}
+.right-input {
+    height: 100%;
+    font-size: .29rem;
+    color: #9f9f9f;
+}
+.right-input input {
+    color: #333;
+    font-size: .29rem;
+    width: 95%;
+}
+.right-input p {
+    background: url(../images/calendar-icon.png) 90% center no-repeat;
+    background-size: 9% auto;
+}
+.sex li {
+    height: .85rem;
+    line-height: .85rem;
+    border-bottom: 1px solid #e9d8c8;
+    margin: 0 1px;
+}
+input:-ms-input-placeholder{
+    color: #9f9f9f;
+}
+input::-webkit-input-placeholder {
+    color: #9f9f9f;
+}
+/* 测算按钮 */
+.start-btn {
+    margin: .36rem;
+}
+.total {
+    font-size: .3rem;
+    color: #3d3c3d;
+    text-align: center;
+    padding-bottom: .13rem;
+}
+.total i {
+    color: #d13036;
+}
+/* 合婚鉴定前许多担忧 */
+.hhjd {
+    margin-top: .7rem;
+}
+.hhjd .title-icon {
+    font-size: .26rem;
+}
+.hhjd-list {
+    padding: .31rem .14rem .08rem;
+}
+.hhjd-list li {
+    -webkit-box-flex: 0 0 3.21rem;  
+    -moz-box-flex: 0 0 3.21rem;             
+    -webkit-flex: 0 0 3.21rem;    
+    -ms-flex: 0 0 3.21rem;    
+    flex: 0 0 3.21rem;
+    margin-bottom: .23rem;
+}
+/* 合婚原理 */
+.hhyl {
+    margin-top: .7rem;
+    position: relative;
+}
+/* 双方婚姻 */
+.sfhy {
+    margin-top: .7rem;
+    position: relative;
+}
+/* 爱他八字不合怎么办 */
+.love-way {
+    margin-top: .7rem;
+}
+/* 解决担忧 */
+.del-worry {
+    margin-top: .8rem;
+    position: relative;
+}
+.del-worry .title-icon {
+    font-size: .27rem;
+    width: 4.6rem;
+}
+/* 喜 */
+.xi {
+    margin-top: .41rem;
+}
+/* 优势 */
+.youshi {
+    margin-top: .7rem;
+    position: relative;
+}
+/* 大师权威认证 */
+.hyzs-zs {
+    margin-top: .7rem;
+    position: relative;
+}
+/* 用户反馈 */
+.user-feedback {
+    margin-top: .7rem;
+    width: 100%;
+}
+.feedback-list {
+    padding: .24rem 0 .1rem;
+}
+.last-content {
+    margin-top: .7rem;
+    position: relative;
+}
+.last-information {
+    margin-top: .7rem;
+}
+.last-information .information-list {
+    padding-bottom: .1rem;
+}
+.footer-logo {
+    background: #fff;
+    padding-top: .36rem;
+    padding-bottom: 1.57rem;
+}

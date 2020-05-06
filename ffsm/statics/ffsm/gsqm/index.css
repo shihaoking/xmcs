@@ -1,0 +1,70 @@
+.user_info {
+    border: 1px solid #b5b5b5;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #292828;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.user_info .u_title {
+    line-height: 40px;
+    border-bottom: 1px solid #b5b5b5;
+}
+.user_info .u_content {
+    padding-top: 10px;
+}
+.u_content li {
+    line-height: 25px;
+    display: flex;
+}
+.u_content li span:nth-of-type(1) {
+    display: block;
+    width: 75px;
+}
+.pay .price{border: 1px solid #a9a9a9;background-color:#fff;margin: 10px;padding: 10px 0px;border-radius:5px;}
+.pay .price .tit1{font-size: 16px;color:#010101;padding: 0px 0px 5px 10px;text-align:left;margin:0;border-bottom:1px solid #d2d2d2;margin-bottom: 10px;}
+.pay .price .yhq{padding:.2rem .2rem;border:1px solid #bfbfbf;margin:0 .3rem;border-radius:5px;font-size:.3rem;color:#010101}
+.pay .price .yhq span{display:inline-block}
+.pay .price .yhq span:first-child{width:45%;vertical-align:top}
+.pay .price .yhq span:last-child{width:50%}
+.pay .price p{font-size: 14px;color:#010101;text-align:right;margin: 5px;}
+.pay .price .tit1.tcenter{text-align:center;border-bottom:1px solid #000}
+.pay .price .inner{padding: 0px 10px;}
+.pay .pay-type li{display:block;border-bottom:1px solid #c9c9c9;padding: 10px;position:relative;}
+.pay .pay-type li .pay-icon{display:inline-block;width: 25px;height: 25px;margin-right: 10px;}
+.pay .pay-type li .icon-wechat{background:url(/statics/ffsm/bazimf/images/ico-wechat.png) no-repeat;background-size:100%}
+.pay .pay-type li .icon-zfb{background:url(/statics/ffsm/bazimf/images/ico-zfb.png) no-repeat;background-size:100%}
+.pay .pay-type li .icon-paypal{background:url(/statics/ffsm/bazimf/images/paypal.png) no-repeat;background-size:100%;    border-radius: 2px;}
+.pay .pay-type li span{font-size: 14px;color: #666;display:inline-block;vertical-align:middle;}
+.pay .paymore{text-align:center!important;font-size:.26rem;color:#000;padding:.1rem 0 0}
+.pay .info .p3{color:#fff;font-size:.26rem;text-align:center;line-height:2}
+.pay .info .btn-lock{margin-bottom:0;background:#c00101;text-indent:.2rem;width:80%;margin-top:2rem}
+.fl {float: left;}
+.pay .price .fl .yh{display:block;padding: 5px;font-size: 14px;color:#fefefe;background:#be2837;line-height: 15px;height: 15px;border-radius: 3px;}
+.pay .price .fl .gray{color:#ccc;margin-top: 5px;display:block;font-size: 15px;}
+
+.gopayzfb {
+    display: block;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    line-height: 8px;
+    border-radius: 24px;
+    background-color:#1999e4;
+    color: #fff !important;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+.gopaywx {
+    display: block;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    line-height: 8px;
+    border-radius: 24px;
+    background-color: #24ac38;
+    color: #fff !important;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}

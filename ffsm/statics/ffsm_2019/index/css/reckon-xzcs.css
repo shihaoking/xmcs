@@ -1,0 +1,100 @@
+﻿@charset "uutf-8";
+.container {
+    width: 100%;
+    background-color: #ffffff;
+    padding-bottom: .44rem; 
+}
+.comWidth {
+    padding: 0 .25rem;
+}
+.picker {
+    max-width: 750px;
+    margin: 0 auto;
+}
+.picker .picker-panel .wheel-wrapper .wheel,
+.picker .picker-panel .picker-choose .picker-title {
+    font-size: 16px;
+}
+/* 填写信息 */
+.information {
+    background: url('../images/xzcs-infor.png') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin-top: .31rem;
+    padding-top: 4.82rem;
+    padding-bottom: .53rem;
+}
+.information-list {
+    padding: 0 .45rem;
+}
+.information-list li {
+    border: 1px solid #b8b8b8;
+    width: 100%;
+    font-size: .3rem;
+    height: .78rem;
+    line-height: .78rem;
+    padding-left: .27rem;
+    margin-bottom: .13rem;
+    border-radius: 15px;
+    color: #161616;
+    overflow: hidden;
+}
+.information-list li:nth-child(2) input {
+    background: url('../images/calendar-xzicon.png') 90% no-repeat;
+    background-size: 9% auto;
+}
+.information-list li>div {
+    color: #161616;
+    font-size: .30rem;
+    min-width: 1.61rem;
+}
+.information-list input {
+    font-size: .3rem;
+    color: #161616;
+}
+input:-ms-input-placeholder{
+    color: #a1a1a1;
+}
+input::-webkit-input-placeholder {
+    color: #a1a1a1;
+}
+.selected-icon {
+    width: .29rem;
+    height: .29rem;
+    margin-right: 0.13rem;
+}
+.sex-man{
+    margin-right: 0.34rem;
+}
+.start-btn {
+    height: .98rem;
+    margin: .23rem auto 0;
+}
+/* 多维度占星报告 */
+.img_list {
+    margin-top: .31rem;
+}
+/* 用户反馈 */
+.user-feedback {
+    width: 100%;
+    margin-top: .31rem;
+    background: url('../images/xzcs-feedback.png');
+    background-size: 100% 100%;
+    padding: 2.7rem .1rem 1rem;
+}
+.user-feedback .pj-content {
+    padding: 0 .15rem;
+}
+.last-information {
+    margin-top: .48rem;
+    padding: .92rem 0 .64rem; 
+    background: url('../images/xzcs-lastinformationbg.png');
+    background-size: 100% 100%;
+}
+.last-information .start-btn {
+    margin-top: .4rem;
+}
+.footer-logo {
+    padding-top: .36rem;
+    padding-bottom: 1.57rem;
+}

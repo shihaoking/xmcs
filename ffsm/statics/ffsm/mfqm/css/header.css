@@ -1,0 +1,144 @@
+/** 头部 **/
+.site-logo {
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    left: .2rem;
+    top: 50%;
+    margin-top: -.4rem;
+    background: url(../images/site_logo/hudun_gold.png) center no-repeat ;
+    background-size: contain;
+    opacity: .2;
+}
+.site-header {
+    position: relative;
+    background-color: #fdf3e2;
+    color: #333;
+    line-height: 1;
+    padding: .2rem 0;
+    font-size: .7rem;
+    font-weight: normal;
+    font-weight: 500;
+    font-family: 'jingdianlibian';
+    text-align: center;
+}
+
+.site-header .my-order,
+.site-header .btn-back {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 50%;
+    font-size: .45rem;
+    line-height: 1;
+    height: 1em;
+    margin-top: -.5em;
+    color: #333;
+}
+
+.site-header .btn-back {
+    left: .2rem;
+}
+
+.site-header .my-order {
+    right: .2rem;
+}
+
+.site-header .icon-back {
+    display: inline-block;
+    width: .3rem;
+    height: .3rem;
+    vertical-align: middle;
+    position: relative;
+    margin-right: .2rem;
+}
+
+.site-header .options {
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    padding: 0 12%;
+    border-radius: 4px;
+    right: 20%;
+    display: none;
+    z-index: 999;
+}
+
+.site-header .options.show {
+    display: inline-block;
+}
+
+.site-header .options a {
+    display: block;
+    padding: .25em 0;
+}
+
+.site-header .options:after {
+    content: '';
+    display: block;
+    border-style: solid;
+    border-width: 6px;
+    border-color: transparent transparent rgba(0, 0, 0, .4) transparent;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    margin-left: -6px;
+}
+
+.site-header .icon-drop {
+    display: inline-block;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #5E0000 transparent transparent transparent;
+    margin-left: 10px;
+}
+
+/* 404 头部 */
+
+.page-404 .site-header {
+    background-color: #fff;
+}
+
+/* wap3 头部 */
+
+.site-wap3 .site-header {
+    background-color: #f7efe9;
+}
+
+/* 测名打分 */
+
+body[site-from="score"] .site-header {
+    background-color: #604222;
+    color: #fff;
+}
+
+body[site-from="score"] .site-header .my-order {
+    color: #fff;
+}
+
+body[site-from="score"] .site-header .my-order:before {
+    content: "\e624";
+    font-family: "iconfont";
+}
+
+body[site-from="score"] .site-header .btn-back {
+    color: #fff;
+}
+
+/* 八字合婚 */
+
+body[site-from="hehun"] .site-header {
+    background-color: #d72323;
+    color: #fff;
+}
+
+body[site-from="hehun"] .site-header .my-order {
+    color: #fff;
+}
+
+body[site-from="hehun"] .site-header .my-order:before {
+    content: "\e624";
+    font-family: "iconfont";
+}

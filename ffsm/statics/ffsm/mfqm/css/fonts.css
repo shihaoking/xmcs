@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "jingdianlibian";
+    src: url("../fonts/jingdianlibian/iconfont.eot");
+    src: url("../fonts/jingdianlibian/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/jingdianlibian/iconfont.woff") format("woff"), url("../fonts/jingdianlibian/iconfont.ttf") format("truetype"), url("../fonts/jingdianlibian/iconfont.svg#iconfont") format("svg")
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('../fonts/iconfonts/iconfont.eot');
+    src: url('../fonts/iconfonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfonts/iconfont.woff') format('woff'), url('../fonts/iconfonts/iconfont.ttf') format('truetype'), url('../fonts/iconfonts/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('../fonts/iconfonts/iconfont.eot');
+    src: url('../fonts/iconfonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfonts/iconfont.woff') format('woff'), url('../fonts/iconfonts/iconfont.ttf') format('truetype'), url('../fonts/iconfonts/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+    font-family: "likexu";
+    src: url("../fonts/likexu/iconfont.eot");
+    src: url("../fonts/likexu/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/likexu/iconfont.woff") format("woff"), url("../fonts/likexu/iconfont.ttf") format("truetype"), url("../fonts/likexu/iconfont.svg#iconfont") format("svg")
+}
+
+@font-face {
+    font-family: "yuweixingshu";
+    src: url("../fonts/yuwei_xingshu/iconfont.eot");
+    src: url("../fonts/yuwei_xingshu/iconfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/yuwei_xingshu/iconfont.woff") format("woff"),
+    url("../fonts/yuwei_xingshu/iconfont.ttf") format("truetype"),
+    url("../fonts/yuwei_xingshu/iconfont.svg#iconfont") format("svg")
+}
+
+.iconfont,
+.likexu,
+.iconfont,
+.jingdianlibian,
+.yuweixingshu {
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+}
+
+.jingdianlibian {
+    font-family: "jingdianlibian" !important;
+}
+
+.icon-more:before {
+    content: "\e600";
+}
+
+.likexu {
+    font-family: "likexu" !important;
+}

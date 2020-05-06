@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+.information-list li {
+    height: 0.7rem;
+    line-height: 0.7rem;
+    font-size: .3rem;
+    color: #707070;
+}
+.datas {
+    background: url('../images/calendar-icon.png') 90% center no-repeat;
+    background-size: 9% auto;
+}
+.calendar-icon {
+    margin: .17rem .36rem 0 0;
+    width: .28rem;
+    height: .27rem;
+}
+.information-list li>div {
+    color: #161616;
+}
+input {
+    background-color: transparent;
+}
+input:-ms-input-placeholder{
+    color: #707070;
+}
+input::-webkit-input-placeholder {
+    color: #707070;
+}
+.selected-icon {
+    width: .29rem;
+    height: .29rem;
+    margin-right: .13rem;
+}
+.sex-man{
+    margin-right: .34rem;
+}

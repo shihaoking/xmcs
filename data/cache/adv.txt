@@ -1,0 +1,1 @@
+a:1:{i:0;a:5:{s:4:"name";s:12:"优酷广告";s:6:"imgurl";s:34:"/static/upload/ico/1396418781.jpeg";s:3:"url";s:21:"http://www.baidu.com/";s:4:"code";s:126:"<script type=\"text/javascript\" src=\"http://ad.dedecms.com/adsview/?action=single&key=ctenttpbanner2&charset=gbk\"></script>";s:4:"type";s:1:"1";}}

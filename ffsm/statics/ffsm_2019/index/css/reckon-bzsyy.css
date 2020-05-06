@@ -1,0 +1,233 @@
+﻿@charset "utf-8";
+.container {
+    background: #fff6e8;
+    padding-bottom: .44rem;
+}
+.comWidth {
+    width: 94%;
+    margin: 0 auto;
+    padding-bottom: 1px;
+}
+.title-icon {
+    position: absolute;
+    width: 5.52rem;
+    top: -.36rem;
+    left: 50%;
+    margin-left: -2.76rem;
+    padding: .15rem 0;
+    background: url('../images/bzsyy-title.png');
+    background-size: 100%  100%;
+    font-size: .35rem;
+    color: #ff5534;
+    text-align: center;
+    letter-spacing: .05rem;
+}
+.com-bg {
+    position: relative;
+    background: url('../images/bzsyy-bg.png');
+    background-size: 100% 100%;
+}
+/* 黄大仙 */
+.hdx {
+    margin-top: .37rem;
+}
+/* 填写个人信息 */
+.information-warp {
+    height: 5.9rem;
+    margin-top: .9rem;
+    padding-top: .85rem;
+}
+.information-list li{
+    margin: 0 1%;
+    padding: 0 .25rem;
+    border-bottom: 1px solid #ead8c6;
+}
+.input-text {
+    font-size: .3rem;
+}
+/* 总共测算的人数 */
+.reckon-total-data {
+    margin-top: .46rem;
+    text-align: center;
+    font-size: .30rem;
+    color: #3d3c3d;
+}
+.reckon-total-data i {
+    color: #d13036;
+}
+/* 开始测算按钮 */
+.start-btn {
+    margin: .3rem auto .47rem;
+    width: 6.23rem;
+    height: 1.18rem;
+}
+/* 如何把握事业机遇 */
+.grap-chance {
+    margin-top: .9rem;
+}
+.list-grap {
+    padding: .69rem .18rem .6rem .14rem;
+}
+.list-grap li {
+    flex: 0 0 48%;
+    height: 4.1rem;
+    overflow: hidden;
+}
+.list-grap li:nth-child(1),
+.list-grap li:nth-child(2) {
+    margin-bottom: .27rem;
+}
+/* 事业工作分析 */
+.job-analyse.com-bg {
+    margin-top: .9rem;
+    background: url('../images/bzsyy-analysebg.png');
+    background-size: 100% 100%;
+}
+.job-text {
+    font-size: .33rem;
+    color: #493207;
+    text-align: center;
+    padding: .85rem 0 .64rem;
+}
+.job-text p {
+    padding-bottom: .2rem;
+}
+.job-text p:first-child {
+    color: #f97115;
+}
+.job-text p:last-child {
+    color: #f28535;
+}
+.job-text .big {
+    font-size: .71rem;
+    color: #ef0000;
+    position: relative;
+    margin: .15rem 0;
+}
+.job-text .big::after,
+.job-text .big::before {
+    width: .3rem;
+    height: .3rem;
+    border: 2px solid #503913;
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -.25rem;
+    transform: rotate(45deg);
+    -ms-transform:rotate(45deg); 	
+    -moz-transform:rotate(45deg); 	
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg); 
+}
+.job-text .big::before {
+    left: 1.1rem;
+}
+.job-text .big::after {
+    right: 1.1rem;
+}
+/* 大师专业测算分析 */
+.major-reckon.com-bg {
+    background: url('../images/bzsyy-majorbg.png');
+    background-size: 100% 100%;
+}
+.major-reckon {
+    margin-top: .9rem;
+}
+.top-list {
+    padding: .72rem .5rem .48rem;
+}
+.top-list li {
+    background-image: url('../images/bzsyy-iconbg.png');
+    background-size: 100% 100%;
+    background-color: #5696ff;
+    font-size: .25rem;
+    color: #fff;
+    padding: .13rem .3rem;
+}
+.top-list li:not(:last-child) {
+    margin-right: .20rem;
+}
+.top-list li:nth-child(2) {
+    background-color: #ffaa56;
+}
+.top-list li:nth-child(3) {
+    background-color: #7cdd79;
+}
+.top-list li:nth-child(4) {
+    background-color: #79bddd;
+}
+.top-list li:nth-child(5) {
+    background-color: #dd7979;
+}
+.top-list li:nth-child(6) {
+    background-color: #dd79b9;
+}
+.bottom-list {
+    font-size: 0.25rem;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+.bottom-list li {
+    margin-bottom: .1rem;
+}
+.bottom-title {
+    width: 1.78rem;
+    background: url('../images/bzsyy-titlebg.png');
+    color: #fff;
+    background-size: 100% 100%;
+    padding: .16rem 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.reckon-text {
+    color: #3c3c3c;
+    line-height: .5rem;
+    padding-top: .1rem;
+}
+/* 未来五年事业运如何 */
+.future {
+    margin-top: .54rem;
+}
+/* 命运给你带来哪些困惑 */
+.bring-puzzled {
+    margin-top: .9rem;
+    position: relative;
+}
+/* 专业算命认准品牌 */
+.vs {
+    margin-top: .9rem;
+    position: relative;
+}
+/* 大师权威认证 */
+.bzsyy-zs {
+    margin-top: .9rem;
+    position: relative;
+}
+/* 真实用户的反馈 */
+.user-feedback.com-bg {
+    padding: .93rem 0 .24rem;
+    margin-top: .9rem;
+    background: url('../images/bzsyy-feedbackbg.png');
+    background-size: 100% 100%;
+}
+.last {
+    margin-top: .9rem;
+    position: relative;
+}
+/* 底部的信息填写 */
+.bottom-information {
+    background-color: #fff;
+}
+.last-information.com-bg {
+    margin-top: .9rem;
+    padding: .8rem 0;
+    background: url('../images/bzsyy-lastinformation.png');
+    background-size: 100% 100%;
+    margin-bottom: .2rem;
+}
+/* 底部 */
+.footer-logo {
+    background: #fff;
+    padding-top: .36rem;
+    padding-bottom: 1.57rem;
+}

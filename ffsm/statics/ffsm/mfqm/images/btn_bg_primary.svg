@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="572px" height="83px" viewBox="0 0 572 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页--copy-13" transform="translate(-89.000000, -1438.000000)">
+            <g id="Group-3" transform="translate(0.000000, 874.913043)">
+                <g id="Group-7-Copy" transform="translate(0.000000, 75.000000)">
+                    <g id="Group-2" transform="translate(91.000000, 490.000000)">
+                        <g id="Group">
+                            <polyline id="Path-25" stroke="#DE3648" stroke-width="3" points="17.302641 13.8529278 10.830431 13.8529278 10.830431 21.4919354 22.947548 21.4919354 22.947548 7 0 7 0 72.0983448 22.9720965 72.0983448 22.9720965 58.1128782 10.8012986 58.1128782 10.8012986 64.5633981 17.04215 64.5633981"></polyline>
+                            <polyline id="Path-25-Copy" stroke="#DE3648" stroke-width="3" transform="translate(556.486048, 39.549172) scale(-1, -1) translate(-556.486048, -39.549172) " points="562.302641 13.8529278 555.830431 13.8529278 555.830431 21.4919354 567.947548 21.4919354 567.947548 7 545 7 545 72.0983448 567.972097 72.0983448 567.972097 58.1128782 555.801299 58.1128782 555.801299 64.5633981 562.04215 64.5633981"></polyline>
+                            <polyline id="Path-26" stroke="#DE3648" stroke-width="3" points="11 7.08319023 11 0 556.675331 0 556.675331 6.98539804"></polyline>
+                            <polyline id="Path-26-Copy" stroke="#DE3648" stroke-width="3" transform="translate(283.837665, 75.541595) scale(-1, -1) translate(-283.837665, -75.541595) " points="11 79.0831902 11 72 556.675331 72 556.675331 78.985398"></polyline>
+                            <path d="M540,26 L540,6 L28,6 L28,26 L9,26 L9,54 L28,54 L28,74 L540,74 L540,54 L558,54 L558,26 L540,26 Z" id="Combined-Shape" fill="#DE3648"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

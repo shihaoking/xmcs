@@ -1,0 +1,73 @@
+﻿@charset "utf-8";
+/* 提炼的公共样式 */
+.container {
+    width: 100%;
+    background: #fffbf1;
+}
+.daxian-warp {
+    margin-top: .32rem;
+}
+.red {
+    color: #ff0000;
+}
+/* 公共样式 */
+.comWidth {
+    width: 94%;
+    margin: 0 auto;
+}
+/* 基本信息 */
+.information-warp,
+.last-information {
+    height: 4.31rem;
+    background: url('../images/bzjp-information.png');
+    background-size: 100% 100%;
+    padding: 1.24rem .3rem 0;
+    margin-top: .5rem;
+}
+.information-list li {
+    border-bottom: 1px solid #e5e5e5;
+}
+.input-text {
+    font-size: .3rem;
+}
+/* 立即测算按钮 */
+.start-btn {
+    width: 6.2rem;
+    margin: .36rem auto .27rem;
+}
+/* 测算的总数据 */
+.total-data {
+    width: 100%;
+    min-height: 1.31rem;
+    background: url('../images/yun.png');
+    background-size: 100% 100%;
+}
+.total-text{
+    font-size: .25rem;
+    color: #000;
+    text-align: center;
+    padding: .15rem;
+}
+.total-text i {
+    color: #ff1313;
+}
+/* 你对命运感到困惑 */
+.img_list {
+    margin-top: .5rem;
+}
+/* 用户反馈 */
+.user-feedback {
+    margin-top: .5rem;
+    background: url('../images/bzjp-feedback.png');
+    background-size: 100% 100%;
+    padding: 1.52rem 0 .76rem;
+}
+/* 最后一个测算按钮 */
+.last-information .start-btn {
+    margin: .41rem auto .26rem;
+} 
+.footer-logo {
+    background: #fff;
+    padding-top: .36rem;
+    padding-bottom: 1.57rem;
+}

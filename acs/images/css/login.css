@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	font:12px/1.5 Tahoma, "\5B8B\4F53";
+	color:#386790;
+	background:#EDF5FB url(../images/login_bg_x.jpg) repeat-x top;
+}
+dl, dt, dd, form {
+	margin:0;
+	padding:0;
+}
+a {
+	color:#58C112;
+	text-decoration:underline;
+}
+a:hover { text-decoration:none; }
+img { border:0 none; }
+/* background-image */
+#login .content, #login dl, input[type=text], input[type=password], #login button {
+	background-image:url(../images/login_box.png);
+	background-repeat:no-repeat;
+}
+/* form elements */
+input[type=text], input[type=password] {
+	width:200px;
+	height:18px;
+	padding:4px;
+	vertical-align:middle;
+	font:12px/1.5 Tahoma, "\5B8B\4F53";
+	border:1px solid #B9C8E7;
+	background-color:#FFF;
+	background-position:-1000px;
+	-moz-box-shadow:inset 1px 1px 2px #DEE6F4;
+	-webkit-box-shadow:inset 1px 1px 2px #DEE6F4;
+	box-shadow:inset 1px 1px 2px #DEE6F4;
+}
+input.code { width:52px; }
+input.error {
+	border:1px solid #FF7979;
+	background-color:#FFF0F0;
+	-moz-box-shadow:inset 1px 1px 2px #FBB;
+	-webkit-box-shadow:inset 1px 1px 2px #FBB;
+	box-shadow:inset 1px 1px 2px #FBB;
+}
+#main {
+	width:965px;
+	height:394px;
+	margin:122px auto 0;
+	background:url(../images/login_bg_m.jpg);
+}
+#logo {
+	float:left;
+	width:141px;
+	padding:116px 0 0 241px;
+}
+#login {
+	position:relative;
+	float:left;
+	width:312px;
+	margin:22px 0 0 92px;
+	border:1px solid #D4E3EB;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	background:#EDF6FB;
+	background:-moz-linear-gradient(top, #E3EEF4, #EDF6FB);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#E3EEF4), to(#EDF6FB));
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#E3EEF4', endColorstr='#EDF6FB');
+	-moz-box-shadow:0 0 10px #C9D3D8;
+	-webkit-box-shadow:0 0 10px #C9D3D8;
+	box-shadow:0 0 10px #C9D3D8;
+}
+#login .msg-box {
+	display:none;
+	position:absolute;
+	left:10px;
+	right:10px;
+	padding:15px 0 0;
+	text-align:center;
+}
+#login .msg-contents {
+	display:inline-block;
+	padding:0 8px;
+	height:22px;
+	line-height:23px;
+	overflow:hidden;
+	color:#FFF;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background:#F84E32;
+}
+#login .content {
+	height:290px;
+	border:1px solid #F6FAFC;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	background-position:0 0;
+}
+#login dl {
+	padding:52px 0 5px;
+	background-position:-323px 178px;
+}
+#login dt {
+	float:left;
+	width:72px;
+	text-align:right;
+	line-height:29px;
+}
+#login dd { height:45px; }
+#login dd img {
+	margin:0 5px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+#login .bot {
+	text-align:center;
+	padding:18px;
+}
+#login button {
+	width:73px;
+	height:30px;
+	border:0 none;
+	background-color:transparent;
+	background-position:-547px -76px;
+	-webkit-box-reflect:below 1px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(.5, transparent), to(rgba(255, 255, 255, 0.5)));
+}
+#login button i { display:none; }

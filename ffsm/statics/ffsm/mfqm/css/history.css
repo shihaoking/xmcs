@@ -1,0 +1,386 @@
+/* 公用按钮 */
+
+.page-history .btn-submit-primary {
+    display: block;
+    text-align: center;
+    margin: 0 auto 1em;
+}
+
+.page-history .btn-submit-primary span,
+.page-history .btn-submit-primary button {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/wap_landing/bg_btn_1.png) center no-repeat;
+    text-align: center;
+    background-size: contain;
+    color: #fff;
+    font-size: .5rem;
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    padding: 0 2.4em;
+    border: none;
+}
+
+.page-history .btn-submit-primary span:before,
+.page-history .btn-submit-primary span:after,
+.page-history .btn-submit-primary button:before,
+.page-history .btn-submit-primary button:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: .5em;
+    height: .5em;
+    background: url(../images/wap_landing/icon-snow.png) center no-repeat;
+    top: 50%;
+    margin-top: -.25em;
+    z-index: 1;
+}
+
+.page-history .btn-submit-primary span:before,
+.page-history .btn-submit-primary button:before {
+    right: .5rem;
+}
+
+.page-history .btn-submit-primary span:after,
+.page-history .btn-submit-primary button:after {
+    left: .5rem;
+}
+
+.page-history .btn-submit-primary.btnUnlockFix {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    box-shadow: 0 0 .1rem rgba(0, 0, 0, .15);
+    background: #fff;
+    padding: .3rem 0;
+    display: none;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+}
+
+.page-history .btn-submit-primary.btnUnlockFix span:before {
+    right: .75rem;
+}
+
+.page-history .btn-submit-primary.btnUnlockFix span:after {
+    left: .75rem;
+}
+
+.page-history .search-box {
+    position: relative;
+    z-index: 2;
+}
+
+.page-history .search-box .text-area {
+    display: block;
+    position: relative;
+    border-top: solid 2px #a16841;
+    border-bottom: solid 2px #a16841;
+    padding-left: 6em;
+    margin: 1.5em 2em;
+}
+
+.page-history .search-box .text-area i:before,
+.page-history .search-box .text-area i:after {
+    content: '';
+    display: block;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    background: no-repeat;
+    z-index: 1;
+    background-size: contain;
+}
+
+.page-history .search-box .text-area .icon-pattern-top:before {
+    right: -1.5em;
+    top: -2px;
+    background-image: url(../images/wap_landing/patter_7.png);
+    background-position: top right;
+}
+
+.page-history .search-box .text-area .icon-pattern-top:after {
+    right: -1.5em;
+    bottom: -2px;
+    background-image: url(../images/wap_landing/patter_8.png);
+    background-position: bottom right;
+}
+
+.page-history .search-box .text-area .icon-pattern-bottom:before {
+    left: -1.5em;
+    top: -2px;
+    background-image: url(../images/wap_landing/patter_7.png);
+    background-position: top right;
+}
+
+.page-history .search-box .text-area .icon-pattern-bottom:after {
+    left: -1.5em;
+    bottom: -2px;
+    background-image: url(../images/wap_landing/patter_8.png);
+    background-position: bottom right;
+}
+
+.page-history .search-box .text-area .icon-pattern-bottom:after,
+.page-history .search-box .text-area .icon-pattern-bottom:before {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+}
+
+.page-history .search-box .text-area input,
+.page-history .search-box .text-area span {
+    position: relative;
+    z-index: 3;
+}
+
+.page-history .search-box .text-area input {
+    border: none;
+    height: 3em;
+    line-height: 3em;
+    background: transparent;
+    position: relative;
+}
+
+.page-history .search-box .text-area input:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.page-history .search-box .text-area span {
+    display: inline-block;
+    height: 1em;
+    line-height: 1em;
+    position: absolute;
+    top: 50%;
+    margin-top: -.5em;
+    left: 1em;
+    border-right: solid 1px #333;
+    padding-right: 1em;
+}
+
+.page-history .orderListItem {
+    padding: 1em;
+    background: #faf4e0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 1em 1em;
+}
+
+.page-history .orderListItem .list-items {
+    margin-bottom: 1em;
+}
+
+.page-history .orderListItem .list-item {
+    position: relative;
+    padding-left: 6em;
+    font-size: .5rem;
+}
+
+.page-history .orderListItem .item-title {
+    display: block;
+    width: 5em;
+    text-align: right;
+    position: absolute;
+    left: 1em;
+    height: 1em;
+    line-height: 1em;
+    top: 50%;
+    margin-top: -.5em;
+}
+
+.page-history .orderListItem .item-content {
+    padding: .5em 0;
+}
+
+.page-history .orderListItem .page-history .btn-submit-primary {
+    margin-bottom: 0;
+}
+
+
+/* 边框纹理 */
+
+.pattern {
+    position: relative;
+}
+
+.pattern .pattern-top:before,
+.pattern .pattern-top:after,
+.pattern .pattern-bottom:before,
+.pattern .pattern-bottom:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background: no-repeat;
+    background-size: contain;
+}
+
+.pattern .pattern-top,
+.pattern .pattern-bottom {
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+}
+
+.pattern .pattern-top:before,
+.pattern .pattern-bottom:before {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+}
+
+.pattern-style-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #faf4e0;
+    border: solid 1px #d2bda3;
+}
+
+.pattern-style-1 .pattern-top,
+.pattern-style-1 .pattern-bottom {
+    height: 1rem;
+}
+
+.pattern-style-1 .pattern-top {
+    top: -1px;
+}
+
+.pattern-style-1 .pattern-bottom {
+    bottom: -1px;
+}
+
+.pattern-style-1 .pattern-top:before,
+.pattern-style-1 .pattern-top:after {
+    background-image: url(../images/wap_landing/patter_9.png)
+}
+
+.pattern-style-1 .pattern-bottom:before,
+.pattern-style-1 .pattern-bottom:after {
+    background-image: url(../images/wap_landing/patter_10.png)
+}
+
+.pattern-style-1 .pattern-top:after {
+    top: 0;
+    right: -1px;
+    background-position: right top;
+}
+
+.pattern-style-1 .pattern-top:before {
+    top: 0;
+    left: -1px;
+    background-position: left top;
+}
+
+.pattern-style-1 .pattern-bottom:before {
+    bottom: 0;
+    left: -1px;
+    background-position: left bottom;
+}
+
+.pattern-style-1 .pattern-bottom:after {
+    bottom: 0;
+    right: -1px;
+    background-position: right bottom;
+}
+
+.pattern-style-2 {
+    background-color: #fcf4e5;
+    padding: 1rem .5rem;
+    border: solid 3px #a27571;
+}
+
+.pattern-style-2 .pattern-top,
+.pattern-style-2 .pattern-bottom {
+    height: 1rem;
+}
+
+.pattern-style-2 .pattern-top:before,
+.pattern-style-2 .pattern-top:after {
+    background-image: url(../images/wap_landing/patter_5.png);
+}
+
+.pattern-style-2 .pattern-bottom:before,
+.pattern-style-2 .pattern-bottom:after {
+    background-image: url(../images/wap_landing/patter_6.png);
+}
+
+.pattern-style-2 .pattern-top {
+    top: -3px;
+}
+
+.pattern-style-2 .pattern-bottom {
+    bottom: -3px;
+}
+
+.pattern-style-2 .pattern-top:before,
+.pattern-style-2 .pattern-bottom:before {
+    left: -3px;
+}
+
+.pattern-style-2 .pattern-top:after,
+.pattern-style-2 .pattern-bottom:after {
+    right: -3px;
+}
+
+.page-history .pattern-style-1.orderListItemSections {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.page-history .pattern-style-1.orderListItemSections {
+    border: solid 3px #d1bb9c;
+}
+
+.page-history .pattern-style-1.orderListItemSections {
+    border: solid 3px #d1bb9c;
+}
+
+.page-history .pattern-style-1.orderListItemSections .pattern-top:before,
+.page-history .pattern-style-1.orderListItemSections .pattern-top:after {
+    top: -3px;
+    background-color: #faf4e0;
+}
+
+.page-history .pattern-style-1.orderListItemSections .pattern-top:before,
+.page-history .pattern-style-1.orderListItemSections .pattern-bottom:before {
+    left: -4px;
+}
+
+.page-history .pattern-style-1.orderListItemSections .pattern-top:after,
+.page-history .pattern-style-1.orderListItemSections .pattern-bottom:after {
+    right: -3px;
+}
+
+.page-history .pattern-style-1.orderListItemSections .pattern-bottom:before,
+.page-history .pattern-style-1.orderListItemSections .pattern-bottom:after {
+    bottom: -3px;
+    background-color: #faf4e0;
+}
+
+.page-history .orderListEmpty {
+    padding: 1em 0;
+}
+
+.page-history .btnPageBack {
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    top: 0;
+    display: block;
+    height: 1em;
+    line-height: 1em;
+    top: 50%;
+    margin-top: -.5em;
+    right: .5em;
+}

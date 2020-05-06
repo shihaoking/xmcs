@@ -1,0 +1,200 @@
+﻿@charset "utf-8";
+html,
+body {
+	width: 100vw;
+	max-width: 750px;
+	margin: 0 auto;
+    background: #fff;
+}
+img {
+	display: block;
+	overflow: hidden;
+    border: 0;
+    height: 100%;
+}
+img[src=""],
+img:not([src]) {
+    opacity: 0;
+}
+
+[v-cloak] {
+    display: none !important;
+}
+.popup-show {
+    animation: codeShow 0.3s;
+    -o-animation: codeShow 0.3s;
+    -moz-animation: codeShow 0.3s;
+    -webkit-animation: codeShow 0.3s;
+}
+.popup-hide {
+    animation: codeHide 0.3s;
+    -o-animation: codeHide 0.3s;
+    -moz-animation: codeHide 0.3s;
+    -webkit-animation: codeHide 0.3s;
+}
+@keyframes codeShow {
+    0%{
+        transform: scale(0);
+        -o-transform: scale(0);
+        -moz-transform: scale(0);
+        -webkit-transform: scale(0);
+        opacity: 0;
+    }
+    20%{
+        transform: scale(0.3);
+        -o-transform: scale(0.3);
+        -moz-transform: scale(0.3);
+        -webkit-transform: scale(0.3);
+        opacity: 0.5;
+    }
+    40%{
+        transform: scale(0.6);
+        -o-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        -webkit-transform: scale(0.6);
+        opacity: 1;
+    }
+    60%{
+        transform: scale(0.9);
+        -o-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+    }
+    80%{
+        transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+        -o-transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
+@keyframes codeHide{
+    0%{
+        transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+    20%{
+        transform: scale(1);
+        -o-transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        
+    }
+    40%{
+        transform: scale(0.9);
+        -o-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+    }
+    60%{
+        transform: scale(0.6);
+        -o-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        -webkit-transform: scale(0.6);
+        opacity: 1;
+    }
+    80%{
+        transform: scale(0.3);
+        -o-transform: scale(0.3);
+        -moz-transform: scale(0.3);
+        -webkit-transform: scale(0.3);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(0);
+        -o-transform: scale(0);
+        -moz-transform: scale(0);
+        -webkit-transform: scale(0);
+        opacity: 0;
+    }
+}
+.flex {
+    display: -webkit-box; 
+    display: -moz-box;     
+    display: -ms-flexbox;  
+    display: -webkit-flex; 
+    display: flex;         
+}
+.flex-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.flex-center {
+    align-items: center;
+    -webkit-align-items: center;
+    box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    -webkit-box-align: center;
+}
+.median {
+    display: -webkit-box; 
+    display: -moz-box;     
+    display: -ms-flexbox;  
+    display: -webkit-flex; 
+    display: flex;   
+    align-items: center;
+    -webkit-align-items: center;
+    box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    -webkit-box-align: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -moz-box-pack: center;
+    -ms-box-align: center;
+    -webkit-moz-box-pack: center;
+    box-pack: center;
+}
+.flex-just {
+    -webkit-justify-content: center;
+    justify-content: center;
+    -moz-box-pack: center;
+    -ms-box-align: center;
+    -webkit-moz-box-pack: center;
+    box-pack: center;
+}
+.flex-pack-justify {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.flex-warp {
+    -webkit-flex-wrap: wrap;
+    -ms-box-align: center;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.flex-item {
+    -webkit-box-flex: 1;  
+    -moz-box-flex: 1;              
+    -webkit-flex: 1;     
+    -ms-flex: 1;           
+    flex: 1;             
+}
+.text-overflow {
+	width: 100%;
+	word-wrap: break-word;
+	word-break: break-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+} 
+.hr2 {
+    width: 7.1rem;
+    height: 1px;
+    background: #e7e7e7;
+    margin: 0 auto;
+}

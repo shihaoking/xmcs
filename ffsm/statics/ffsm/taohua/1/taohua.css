@@ -1,0 +1,185 @@
+body { background: #fee6ec }
+/*大师简介*/
+.dashi_intro { height: auto; padding: 10px 15px; line-height: 1.9; }
+.dashi_intro dl {  padding-top: 10px}
+.dashi_intro dt { float: left; }
+.dashi_intro dd { margin-left: 10px; padding-right: 10px;}
+.dashi_intro_pic{float:left; margin-right:10px; background: #fff;}
+.dashi_intro .avatar { width: 90px; height: 90px; overflow: hidden;  border: 5px solid #fff;}
+.dashi_intro .avatar img { display: block; width: 100%; height: auto; }
+.dashi_intro .dashi { height: 30px; line-height: 30px; font-size: 14px;text-align: center; padding:0 5px;}
+.dashi_intro .dashi a { display: block; color: #903c23; text-decoration: underline; }
+
+.public_btn_s a{background: #9b6820}
+.test_count { text-align: center; margin: 0 10px; }
+.test_count span {  font-size: 14px;}
+.test_count font { color: #903c23; }
+
+.taohua_personal{ overflow: hidden; }
+.tao_title{color: #fff;text-align: center;height: 35px;line-height: 35px;font-size: 18px;background-color: #ff537b;border-radius: 5px;-webkit-border-radius:5px;margin: 0 10px;}
+
+.public_form_wrap ul {border-color: #ff88a5;}
+.public_form_wrap .sex i {border-color: #ff537b;}
+.public_form_wrap .sex span.cur i {background-color: #ff537b ;}
+.public_btn_s a{background-color: #ff537b}
+
+.tao_p_title{color: #fff;text-align: center;height: 35px;line-height: 35px;font-size: 18px;background-color: #ff537b; margin: 10px 10px 0; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+.tao_oi,.tao_p_content{padding: 10px 0; margin: 0 10px; border: 1px solid #e2ccb0;border-top: 0;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;background: #fff;}
+.tao_oi li {width: 33.333%;float: left;text-align: center; padding: 0 5px; box-sizing: border-box;}
+.tao_oi li img{ display: block; max-width: 100%; margin: 0 auto; }
+.tao_oi{padding: 10px 0; margin: 0 10px; border: 1px solid #e2ccb0;border-top: 0;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;background: #fff;}
+.tao_p_content p{ padding: 0 10px 0 20px;position: relative;height: 30px;line-height:30px; }
+.tao_p_content p:before{ content: "";position: absolute;top:50%; left: 0; margin-top: -15px;  width: 20px;height: 30px;background: url("images/icon_flower.png") no-repeat center center; background-size: 16px 16px}
+
+/*内页css*/
+/*public_box_email css*/
+.public_box_email{ padding: 10px; overflow: hidden;box-sizing: border-box; width: 100%; }
+.public_box_email .left{width: 68%;}
+.public_box_email .inpt{ display: block; border: 1px solid #ccc;height: 40px; line-height: 40px;padding: 0 5px;border-radius: 5px;background-color: #fff; font-size: 14px; box-sizing: border-box; width: 100%;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;}
+.public_box_email .right{width: 32%; padding-left: 8px; box-sizing: border-box;}
+.public_box_email .btn{display: block; text-align: center; height: 40px; background: #dc8732; line-height: 40px;border-radius: 5px;font-size: 18px; border:0; color: #fff; width: 100%;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;}
+.taohua_info{margin: 10px;border: 1px solid #e2ccb0;background: #fff;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.tao_box{ padding:10px; }
+.tao_box li { height: 35px; line-height: 35px; }
+.tao_box li:first-of-type {border-top: 0;}
+.tao_box p { color: #818181; font-size: 14px; }
+.red { color: #ff537b; }
+.tao_pay { margin: 0 10px;  border-top: 1px solid #e2ccb0;  padding: 10px 0; }
+.tao_pay_price{ margin: 0 20px; }
+.tao_pay_price .right { color: #bc2228; }
+.tao_pay_price .auto { color: #282828; }
+.tao_pay_price p { line-height: 25px; }
+
+.public_title{ margin: 10px 10px 0; height: 40px;line-height: 40px;color: #fff;font-size: 20px;background-color: #ff537b;text-align: center; position: relative; border-radius: 5px;-webkit-border-radius:5px;}
+.public_title:before{ content: "";position: absolute;top:50%; left: 0; margin-top: -20px;  width: 40px;height: 40px;background: url("images/icon_lock01.png") no-repeat center center; background-size: 18px 24px}
+.cur_title{ margin: 10px 10px 0; height: 40px;line-height: 40px;color: #fff;font-size: 20px;background-color: #ff537b;text-align: center; position: relative;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.cur_title:before{ content: "";position: absolute;top:50%; left: 0; margin-top: -20px;  width: 40px;height: 40px;background: url("images/icon_lock02.png") no-repeat center center; background-size: 18px 24px}
+
+.tq_content { background:#fff url("images/icon_yijs.png") no-repeat 80% center;background-size: 90px auto; padding: 10px; margin: 0 10px;border: 1px solid #e2ccb0;border-top: 0;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.tq_content p{ padding: 0 10px 0 20px;position: relative;height: 30px;line-height:30px; }
+.tq_content p:before{ content: "";position: absolute;top:50%; left: 0; margin-top: -15px;  width: 20px;height: 30px;background: url("images/icon_flower.png") no-repeat center center; background-size: 16px 16px}
+
+.tqc{ overflow: hidden; }
+.mr20 { margin-right: 20px; }
+.tqc_grey { color: #797471; }
+.tqc_grey span { margin-right: 0; }
+.tqc_item { display: block; margin-left: 20px; height: 20px;  padding: 3px 0;}
+.tqc_item i { background-repeat: no-repeat; background-position: center center; }
+.tqc_item i { width: 20px; height: 20px; float: left; background-size: 100% 100%; }
+.tqc_item i img { width: 100%; height: 100%; }
+.tqc_item span {float: left; height: 20px; line-height: 20px;  margin-left: 5px;color: #ff537b; }
+
+.taohua_hidden{ background-color: #fff; padding: 10px; margin: 0 10px;border: 1px solid #e2ccb0;border-top: 0;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.th_list{border: 1px solid #feabbf;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.taohua_hidden dl {border-bottom: 1px solid #bcb9b8; padding: 10px;}
+.taohua_hidden dl:last-of-type{border:none;}
+.taohua_hidden dt { width: 80px; height: 80px; float: right; }
+.taohua_hidden dt img { width: 100%; height: 100%; }
+.taohua_hidden dd h4{ font-weight: 700; margin-bottom: 5px; }
+.taohua_hidden dd .words { color: #ff537b; line-height: 25px; height: 25px; font-size: 18px;  }
+
+.tao_lock_btn { margin: 10px 0; text-align: center;}
+.tao_lock_btn .btn {  display: block; height: 35px; line-height: 35px; margin: 0 10px; background: #ce0000; font-size: 18px; color: #fff; cursor: pointer; border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.tao_lock_btn .people{text-align: center; overflow: hidden; margin:10px 0 20px 0 }
+.tao_lock_btn .people em{ color: #bc2a43}
+
+.tao_pop_wrapper{ position: fixed; top:0;left: 0; width: 100%; height: 100%; background: rgba(0,0,0,.5); width: 100%; height: 100%; z-index: 1; display: none; }
+.tao_pop {position:fixed;top: 25%; left: 0; right: 0; z-index: 2;width:90%;background-color: #fff;border: 1px solid #ff537b;overflow: hidden; margin: 0 auto;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: none;
+}
+.tao_pop_title{height: 40px;line-height: 40px;background-color: #ff537b;color: #fff;font-size: 20px;font-weight: 700;text-align: center;}
+.tao_pop_title .close{height: 40px;width: 40px;position: absolute;top: 0;right: 0;
+    background: url("images/icon_close.png") no-repeat center center;background-size: 100% 100%;cursor: pointer;}
+.tao_pop_content{padding:10px 0; overflow: hidden;}
+.tao_pop_content .pay_price {
+    background-image: url("images/icon_flower.png"), url("images/icon_flower.png");
+    background-repeat: no-repeat, no-repeat;
+}
+.tao_pop_content .pay_title {height: 50px;line-height: 50px;text-align: center;}
+.tao_pop_content .pay_price { width: 250px; height: 35px; line-height: 35px; margin: 0 auto; text-align: center; font-size: 18px; background-position: left 8px, right 8px;
+background-size: 16px, 16px; padding: 0 5px;}
+
+.public_fu_title{ margin: 10px 10px 0; height: 40px;line-height: 40px;color: #fff;font-size: 20px;background-color: #ff537b;text-align: center; border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.tao_item,
+.tao_yunshi{ margin: 0 10px; overflow: hidden; }
+.tao_item dl {margin-top: 10px; border: 1px solid #feabbf; background-color: #fff;  padding: 10px; 
+ border-radius: 5px;
+ -o-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+}
+.tao_item dt { width: 80px; height: 80px; float: right; }
+.tao_item dt img { width: 100%; height: 100%; }
+.tao_item dd .words { line-height: 25px; height: 25px; font-size: 18px; color: #ff537b; }
+.tao_item dd .power { color: #ff537b; }
+.tao_item_ui{ overflow: hidden; }
+.tao_item_ui li {  margin: 10px 0; line-height: 25px;}
+
+.public_yl_title { height: 30px; line-height: 30px; margin-top: 10px;font-size: 18px; color: #000; }
+.public_yl_title span.left {width: 5px; height: 30px; background-color: #ff537b; margin-right: 5px;
+ border-radius: 5px;
+ -o-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+}
+.tao_yunshi_box{margin-top: 5px;border: 1px solid #feabbf;background-color: #fff;line-height: 20px;padding: 5px;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+}
+.tao_yunshi_ui{ overflow: hidden; height: 170px; }
+.tao_yunshi_ui li {width: 50%; float: left; font-size: 15px;}
+.tao_yunshi_ui li .ty_n{border: 1px solid #feabbf; margin: 5px;padding: 5px;background: #fff;
+border-radius: 5px;
+-o-border-radius: 5px;
+-ms-border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;}
+.more {height: 50px;line-height: 50px;border-bottom: 1px solid #bbadae;}
+.more a {display: block;height: 50px;text-align: center;color: #ff537b; text-decoration: underline;}
+
+.tao_love{ overflow: hidden; margin: 0 10px 10px; }
+.tao_love_content {line-height: 24px;margin: 0 5px;padding-top: 5px; color: #666}
+.ti_words{ padding: 5px 0; }
+
+.tao_show_words{ padding: 10px; }
+.tao_item_title{ height: 40px;line-height: 40px;color: #fff;font-size: 20px;background-color: #ff537b;text-align: left; border-radius: 5px;border-radius: 5px; padding-left: 10px;}
+
+.public_more{height:40px;line-height:40px;background-color: #ff88a5;color: #fff;cursor: pointer; text-align: center; margin-bottom: 10px;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.cur_list_box{ height: auto }

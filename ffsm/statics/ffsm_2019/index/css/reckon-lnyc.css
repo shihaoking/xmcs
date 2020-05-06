@@ -1,0 +1,111 @@
+﻿@charset "utf-8";
+.container {
+    background: #fff;
+    width: 100%;
+    height: auto;
+    padding-bottom: .42rem;
+}
+/* 公共样式 */
+.comWidth {
+    width: 95%;
+    margin: 0 auto;
+}
+/* 传统名师推荐 */
+.traditional-recommend {
+    width: 100%;
+    background: url('../images/lnyc-hdx.png');
+    background-size: 100% 100%;
+    margin: .5rem 0 .33rem;
+    padding-bottom: .83rem; 
+}
+.information-list li:last-child p {
+    background: url('../images/calendar-icon.png') 90% center no-repeat;
+    background-size: 9% auto;
+    background-color: transparent;
+}
+.information-list {
+    padding-top: 5.2rem;
+    width: 6.52rem;
+    margin: 0 auto;
+}
+.information-list li {
+    height: .77rem;
+    line-height: .77rem;
+    background: #fff;
+    border: 1px solid #ff7f7e;
+    border-radius: .3rem;
+    margin-bottom: .14rem;
+    padding-left: .3rem;
+    font-size: .3rem;
+    color: #d1d1d1;
+    overflow: hidden;
+}
+.information-list li>div {
+    color: #161616;
+    width: 1.5rem;
+}
+.input-text {
+    font-size: .3rem;
+}
+input:-ms-input-placeholder{
+    color: #d1d1d1;
+}
+input::-webkit-input-placeholder {
+    color: #d1d1d1;
+}
+.selected-icon {
+    width: 0.29rem;
+    height: 0.29rem;
+    margin-right: 0.13rem;
+}
+.sex-man{
+    margin-right: 0.34rem;
+}
+/* 测算按钮 */
+.start-btn {
+    width: 5.48rem;
+    height: .98rem;
+    margin: .4rem auto 0;
+}
+/* 测算人数和好评率 */
+.reckon-data {
+    min-height: .82rem;
+    line-height: .82rem;
+    font-size: .28rem;
+    color: #ffffff;
+    background: #e13030;
+    border-radius: .15rem;
+    text-align: center;
+}
+.reckon-data  i {
+    color: #ffea00;
+}
+.img_list {
+    margin-top: .5rem;
+}
+/* 用户反馈 */
+.user-feedback {
+    margin-top: .5rem;
+    padding: 1.3rem 0 .61rem;
+    background: url('../images/lnyc-feedback.png');
+    width: 100%;
+    background-size: 100% 100%;
+}
+/* 底部信息填写 */
+.last-inforamtion {
+    width: 100%;
+    background: url('../images/lnyc-lasyinformation.png');
+    background-size: 100% 100%;
+    margin-top: .5rem;
+}
+.last-inforamtion .information-list {
+    padding: .42rem 0;
+}
+.last-inforamtion .information-list li:last-child {
+    margin-bottom: 0;
+}
+.footer-logo {
+    background: #fff;
+    padding-top: .36rem;
+    padding-bottom: 1.57rem;
+}

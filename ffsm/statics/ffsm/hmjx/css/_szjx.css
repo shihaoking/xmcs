@@ -1,0 +1,116 @@
+﻿.cs_bgcolor{
+    background:url('../images/ds_border.png') no-repeat;
+    background-size:100% 100%;
+    margin:0.2rem 0.2rem 0;
+}
+.dashi_head{height:3.69rem;width:2.87rem;}
+.dashi_head img{vertical-align: middle;}
+
+/* 大师简介 */
+.dashi_title{
+    height:0.96rem;
+    padding:0.2rem 0.2rem 0;
+}
+.dashi_jianjie{display: flex;padding:0rem 0.2rem 0;box-sizing: border-box;align-items: center;}
+.dashi_txt p{font-size:0.24rem;color:#333333;line-height: 1.8;}
+.dashi_head{flex-shrink: 0;}
+
+/* 表单 */
+.m_form_p{
+    padding:0.3rem 0.6rem 0;
+    text-align: center;
+    font-size:0.26rem;
+    color:#333333;
+}
+.m_form_ul{
+    padding:0.3rem 0.2rem;
+    list-style: none;
+}
+.m_form_ul li{
+    height:0.9rem;
+    line-height: 0.9rem;
+    border-radius: 0.1rem;
+    border:0.02rem solid #ad821a;
+    display: flex;
+    margin-bottom:0.2rem;
+    overflow: hidden;
+    background-color:#ffffff;
+    font-size:0.3rem;
+}
+.f_auto label input:checked+.select::after{
+    content: '';
+    display: inline-block;
+    width:0.24rem;
+    height:0.24rem;
+    border-radius: 50%;
+    background-color:#eb4852;
+}
+.f_auto label{height:0.9rem;display: inline-block;padding-right:0.3rem;-webkit-tap-highlight-color: rgba(255, 255, 255, 0);}
+.select{
+    display: inline-block;
+    line-height: 0.32rem;
+    text-align: center;
+    width:0.32rem;
+    height:0.32rem;
+    border-radius: 50%;
+    border: 0.02rem solid #eb4852;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin-right:0.2rem;
+}
+
+.m_form_ul li:nth-last-child(1){margin-bottom:0;}
+.m_form_ul li .f_left{width:2rem;padding:0 0.2rem;box-sizing: border-box;color:#333333;}
+.m_form_ul li .f_auto{flex: 1;}
+.m_form_ul li .f_auto input{
+    width: 100%;
+    height:100%;
+    outline: none;
+    border:none;
+    background-color: transparent;
+    padding-right:0.1rem;
+    box-sizing: border-box;
+    font-size:0.3rem;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+.m_form_ul li .f_auto ._select{
+    width: 100%;
+    height:100%;
+    outline: none;
+    border:none;
+    background-color: transparent;
+    padding-right:0.1rem;
+    box-sizing: border-box;
+    font-size:0.3rem;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background:url('../images/icon_d_arrow.png') 98% center no-repeat;
+    background-size: 0.36rem auto;
+}
+#datetime{
+    background: url('../images/icon_date.png') 98% center no-repeat;
+    background-size:0.36rem auto;
+}
+.m_form_prompt{font-size:0.26rem;color:#999999;text-align: center;}
+.m_form_btnwrap{padding:0rem 0.2rem 0.3rem}
+.m_form_submit{
+    width:100%;
+    height:0.9rem;
+    text-align: center;
+    font-size:0.32rem;
+    line-height: 0.9rem;
+    background-color:#E41919;
+    box-shadow: 0 0.08rem 0 #AA0B0B;
+    border-radius: 0.1rem;
+    margin:0 auto;
+    color:#ffffff;
+}
+.m_img_wrap_d{padding:0.2rem;}
+.m_img_wrap_d img{width:100%;vertical-align: middle;}
+/* 服务 */
+.sz_service{padding:0.2rem;}
+.sz_ul{list-style:none;}
+.sz_ul li{margin-bottom:0.2rem;}
+.sz_ul li .li_textimg img{vertical-align: middle;}

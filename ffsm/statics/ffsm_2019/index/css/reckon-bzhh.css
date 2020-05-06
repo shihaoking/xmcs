@@ -1,0 +1,88 @@
+﻿@charset "utf-8";
+.container {
+    background-color: #c02c31;
+    padding-bottom: .3rem;
+}
+.comWidth {
+    width: 95%;
+    margin: 0 auto;
+}
+/* 黄大仙 */
+.hdx {
+    margin: .3rem 0 .4rem;
+}
+/* 信息 */
+.information{
+    width: 100%;
+    background: #fef8ee;
+    border-radius: 5px;
+    border: 2px solid #eee1d5;
+}
+.left-title {
+    font-size: .32rem;
+    color: #750b1c;
+    padding-left: .2rem;
+    padding-right: .3rem;
+    height: 100%;
+}
+.right-input {
+    height: 100%;
+    font-size: .29rem;
+    color: #9f9f9f;
+}
+.right-input input {
+    font-size: .33rem;
+    width: 95%;
+    height: 100%;
+    background: transparent;
+}
+.right-input p {
+    background: url(../images/calendar-icon.png) 90% center no-repeat;
+    background-size: 9% auto;
+    font-size: .33rem;
+    color: #9f9f9f;
+}
+.sex li {
+    height: .9rem;
+    line-height: .9rem;
+    border-bottom: 2px solid #eee1d5;
+    margin: 0 1px;
+}
+input:-ms-input-placeholder{
+    color: #9f9f9f;
+}
+input::-webkit-input-placeholder {
+    color: #9f9f9f;
+}
+.start-btn {
+    margin: .35rem .4rem .44rem;
+}
+.total {
+    font-size: .3rem;
+    color: #3d3c3d;
+    text-align: center;
+}
+.total i {
+    color: #d13036;
+}
+.information .total {
+    padding-bottom: .5rem;
+}
+.img_list {
+    margin-top: .4rem;
+}
+/* 用户反馈 */
+.user-feedback {
+    margin-top: .4rem;
+    background: url('../images/bzhh-userback.png');
+    background-size: 100% 100%;
+    padding: 1.46rem 0 1rem;
+}
+.last-content {
+    margin: .4rem 0 .3rem;
+}
+.footer-logo {
+    background: #fff;
+    padding-top: .36rem;
+    padding-bottom: 1.57rem;
+}

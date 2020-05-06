@@ -1,0 +1,78 @@
+﻿@charset "utf-8";
+.container {
+    background-color: #ffefea;
+    padding-bottom: 1px;
+}
+.comWidth {
+    width: 95%;
+    margin: 0 auto;
+}
+.hdx {
+    margin-top: .22rem;
+}
+/* 信息填写 */
+.information-warp {
+    margin-top: .5rem;
+}
+.information-list {
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid #eee1d5;
+}
+.information-warp .information-list li {
+    border-bottom: 1px solid #eee1d5;
+    width: 100%;
+    font-size: .3rem;
+    height: .93rem;
+    line-height: .93rem;
+    padding-left: .12rem;
+}
+.information-list li:last-child {
+    border-bottom: none;
+}
+.information-warp .information-list li > div:first-child {
+    color: #c90000;
+    font-size: .32rem;
+}
+.information-warp .selected-icon {
+    width: .33rem;
+    height: .33rem;
+    margin-right: .2rem;
+}
+.information-warp .sex-man {
+    margin-right: .86rem;
+}
+input {
+    font-size: .3rem;
+}
+/* 测算按钮 */
+.start-btn {
+    margin: .21rem .42rem .31rem;
+}
+/* 测算的总数据 */
+.total {
+    font-size: .26rem;
+    color: #000000;
+}
+.total i {
+    color: #c90000;
+}
+/* 名字隐藏的命运*/
+.img_list {
+    margin-top: .5rem;
+}
+/* 客户真实反馈 */
+.xmcs-feedback {
+    margin-top: .5rem;
+    background: url('../images/xmcs-feedback.png');
+    background-size: 100% 100%;
+    padding-bottom: .4rem;
+}
+.xmcs-feedback {
+    padding: 1.55rem 0 .5rem;
+}
+.footer-logo {
+    background: #fff;
+    padding-top: .36rem;
+    padding-bottom: 1.57rem;
+}

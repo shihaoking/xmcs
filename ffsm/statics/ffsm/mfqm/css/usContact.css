@@ -1,0 +1,155 @@
+.modal-servicse-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, .55);
+    display: none;
+}
+
+.modal-servicse {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    background: #fff;
+    border: solid 4px #df3034;
+    padding: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.modal-servicse p {
+    color: #666;
+    padding: 1em 0;
+}
+
+.modal-servicse p span {
+    display: block;
+}
+
+.modal-servicse .btn-weixin-code,
+.modal-servicse .btn-open-weixin {
+    display: block;
+    width: 50%;
+    margin: 0 auto 1em;
+    padding: .5em 0;
+}
+
+.modal-servicse .btn-weixin-code,
+.modal-servicse .btn-open-weixin {
+    background-color: #df3034;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.modal-servicse .btn-close {
+    position: absolute;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    line-height: .83rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #df3034;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    top: -.5rem;
+    right: -.5rem;
+}
+
+.aside-contact-group {
+    position: fixed;
+    right: .3rem;
+    bottom: 2rem;
+    z-index: 999;
+}
+
+.aside-contact-group .aisde-online-services {
+    display: block;
+    width: 1rem;
+    height: 3.2rem;
+    background: url(../images/aside_online_services.png) center no-repeat;
+    background-size: contain;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+.aside-contact-group .aisde-master-weixin {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background: url(../images/aside_master_weixin.png) center no-repeat;
+    background-size: contain;
+}
+
+.site-bazi-caiyun .modal-servicse {
+    border-color: #f0c987;
+}
+.page-names-details[page-from="scoredetails"] .btn-weixin-code,
+.page-names-details[page-from="scoredetails"] .btn-open-weixin,
+.page-names-details[page-from="scoredetails"] .btn-close,
+.page-names-details[page-from="suandetails"] .btn-weixin-code,
+.page-names-details[page-from="suandetails"] .btn-open-weixin,
+.page-names-details[page-from="suandetails"] .btn-close,
+.page-suan .modal-servicse .btn-weixin-code,
+.page-suan .modal-servicse .btn-open-weixin,
+.page-suan .modal-servicse .btn-close {
+    background-color: #805306;
+}
+.page-names-details[page-from="scoredetails"] .modal-servicse,
+.page-names-details[page-from="suandetails"] .modal-servicse,
+.page-suan .modal-servicse {
+    border-color: #805306;
+}
+.page-names-details[page-from="scoredetails"] .aisde-online-services,
+.page-names-details[page-from="suandetails"] .aisde-online-services,
+.page-suan .aisde-online-services {
+    background-image: url(../images/aside_online_services_suan.png);
+}
+.page-names-details[page-from="scoredetails"] .aside-contact-group .aisde-master-weixin,
+.page-names-details[page-from="suandetails"] .aside-contact-group .aisde-master-weixin,
+.page-suan .aside-contact-group .aisde-master-weixin {
+    background-image: url(../images/aside_master_weixin_suan.png);
+}
+
+.site-bazi-caiyun .modal-servicse .btn-weixin-code,
+.site-bazi-caiyun .modal-servicse .btn-open-weixin,
+.site-bazi-caiyun .modal-servicse .btn-close {
+    background-color: #f0c987;
+}
+
+.site-bazi-caiyun .aisde-online-services {
+    background-image: url(../images/aside_online_services_suan3.png);
+}
+
+.site-bazi-caiyun .aside-contact-group .aisde-master-weixin {
+    background-image: url(../images/aside_master_weixin_suan3.png);
+}
+
+@media(min-width: 768px) {
+    .aside-contact-group .aisde-online-services {
+        width: 80px;
+        height: 250px;
+        background-size: auto;
+        margin-bottom: 0;
+    }
+    .aside-contact-group .aisde-master-weixin {
+        width: 160px;
+        height: 160px;
+        background-size: auto;
+        display: none;
+    }
+    .aside-contact,
+    .aside-nav {
+        bottom: 30%;
+    }
+}

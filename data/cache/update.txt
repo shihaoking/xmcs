@@ -1,0 +1,1 @@
+a:2:{s:3:"IOS";a:4:{s:4:"flag";s:3:"IOS";s:7:"version";s:0:"";s:3:"url";s:0:"";s:4:"logs";s:0:"";}s:7:"Android";a:4:{s:4:"flag";s:7:"Android";s:7:"version";s:3:"1.0";s:3:"url";s:21:"http://www.baidu.com/";s:4:"logs";s:9:"修复bug";}}

@@ -1,0 +1,50 @@
+﻿@charset "utf-8";
+
+@font-face {
+    font-family: 'webfont';  /* project id 306486 */
+    src: url('../fonts/font_306486_id0369iz24uhxgvi.eot');
+    src: url('../fonts/font_306486_id0369iz24uhxgvi.eot') format('embedded-opentype'),
+    url('../fonts/font_306486_id0369iz24uhxgvi.woff') format('woff'),
+    url('../fonts/font_306486_id0369iz24uhxgvi.ttf') format('truetype'),
+    url('../fonts/font_306486_id0369iz24uhxgvi.svg#webfont') format('svg');
+}
+[class^="icon-"]{display:inline-block;font-family:'webfont';}
+.icon-point:before{content:"\e612";}
+.icon-down:before{content:"\e600";}
+.icon-pwd:before{content:"\e60a";}
+.icon-id:before{content:"\e613";}
+.icon-phone:before{content:"\e60e";}
+.icon-name:before{content:"\e610";}
+.icon-sms:before{content:"\e611";}
+.icon-img:before{content:"\e60f";}
+.icon-market:before{content:"\e604";}
+.icon-sign:before{content:"\e607";}
+.icon-mobile:before{content:"\e60b";}
+.icon-about:before{content:"\e605";}
+.icon-game:before{content:"\e615";}
+.icon-info:before{content:"\e614";}
+.icon-gift:before{content:"\e60c";}
+.icon-clean:before{content:"\e608";}
+.icon-community:before{content:"\e60d";}
+.icon-user:before{content:"\e603";}
+.icon-star:before{content:"\e6b2";}
+.icon-right:before{content:"\e66e";}
+.icon-bottom:before{content:"\e646";}
+.icon-cancel:before{content:"\e7aa";}
+.icon-time:before{content:"\e618";}
+.icon-notice:before{content:"\e601";}
+.icon-rule:before{content:"\e650";}
+.icon-shop:before{content:"\e61a";}
+.icon-task:before{content:"\e619";}
+.icon-record:before{content:"\e62b";}
+.icon-king:before{content:"\e62e";}
+.icon-signed:before{content:"\e61b";}
+.icon-pay:before{content:"\e61c";}
+.icon-blank:before{content:"\e6b0";}
+.icon-pays:before{content:"\e620";}
+.icon-vip:before{content:"\e6fe";}
+.icon-svip:before{content:"\e63f";}
+.icon-warning:before{content:"\e61d";}
+.icon-refresh:before{content:"\e754";}
+.icon-return:before{content:"\e61e";}
+.icon-red-packet:before{content:"\e7b1";}

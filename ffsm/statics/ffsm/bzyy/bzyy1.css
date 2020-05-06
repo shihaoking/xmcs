@@ -1,0 +1,1467 @@
+@charset "utf-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  width: 100%;
+  min-height: 100%;
+  font-size: 18px;
+  background-color: #fbf8f5 !important;
+      max-width: 720px;
+    margin: 0 auto;
+}
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+  font-size: 100%;
+  font-family: Microsoft YaHei, "\5FAE\8F6F\96C5\9ED1", Helvetica, STHeiti, Droid Sans Fallback;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  min-height: 100%;
+}
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio, canvas, progress, video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden], template {
+  display: none;
+}
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active, a:hover {
+  outline: 0;
+}
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+  /*no*/
+}
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b, strong {
+  font-weight: bold;
+}
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0;
+}
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 1.06667rem;
+  /*no*/
+}
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+}
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto;
+}
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible;
+}
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button, select {
+  text-transform: none;
+}
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"], input[type="radio"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 2 */
+}
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  /*no*/
+  margin: 0 2px;
+  /*no*/
+  padding: 0.35em 0.625em 0.75em;
+}
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold;
+}
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td, th {
+  padding: 0;
+}
+ul, ol {
+  list-style: none;
+}
+body, div, ol, ul, li, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, iframe, input, textarea, select, label, article, aside, footer, header, menu, nav, section, time, audio, video {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+a, input, textarea, select {
+  outline: none;
+}
+/**
+* ????
+*/
+/**
+* ???????
+*/
+html {
+  background-color: #fff;
+}
+.container {
+  background: #fff;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  min-width: 20rem;
+  max-width: 720px;
+  margin: 0 auto;
+  color: #333;
+  z-index: 1;
+}
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  z-index: 1;
+}
+img {
+  width: 100%;
+  vertical-align: top;
+}
+.clear {
+  _zoom: 1;
+  clear: both;
+}
+.clear:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.auto {
+  overflow: hidden;
+}
+.li-left li {
+  display: block;
+  float: left;
+}
+.li-right li {
+  display: block;
+  float: right;
+}
+.hide {
+  display: none;
+}
+.rlt {
+  position: relative;
+}
+.shop-common-tip-layer {
+  position: fixed;
+  z-index: 19491001;
+  top: 50%;
+  left: 50%;
+  width: 16rem;
+  height: 3rem;
+  margin-top: -1.5rem;
+  margin-left: -8rem;
+}
+.shop-common-tip-layer .back {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .5;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  /*no*/
+  -webkit-box-shadow: 0 0 1rem #000;
+          box-shadow: 0 0 1rem #000;
+}
+.shop-common-tip-layer .front {
+  position: absolute;
+  width: 16rem;
+  top: 50%;
+  left: 0;
+  font-size: .875rem;
+  color: #fff;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.shop-common-tip-layer .front span {
+  color: #fff;
+  font-size: .875rem;
+}
+.common-loading-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+.common-loading-layer .back {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .5;
+}
+.common-loading-layer .front {
+  width: 16rem;
+  height: 8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -4rem;
+  margin-left: -8rem;
+  background: #fff;
+  -webkit-border-radius: 0.21333rem;
+  /*no*/
+  /*no*/
+  border-radius: 0.21333rem;
+  /*no*/
+}
+.common-loading-layer .front .img {
+  text-align: center;
+  line-height: 4rem;
+}
+.common-loading-layer .front .img img {
+  width: auto!important;
+  vertical-align: middle!important;
+  display: inline-block;
+}
+.common-loading-layer .front .text {
+  text-align: center;
+  color: #2079b4;
+}
+html {
+  background-color: #fff;
+  -webkit-overflow-scrolling: touch;
+}
+.container {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  position: relative;
+  min-width: 20rem;
+  max-width: 720px;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #333;
+}
+.wrapper {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow: auto;
+  position: relative;
+}
+img {
+  width: 100%;
+  vertical-align: top;
+}
+.clear {
+  _zoom: 1;
+  clear: both;
+}
+.clear:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.auto {
+  overflow: hidden;
+}
+.li-left li {
+  display: block;
+  float: left;
+}
+.li-right li {
+  display: block;
+  float: right;
+}
+.hide {
+  display: none;
+}
+.rlt {
+  position: relative;
+}
+.main {
+  background-color: #fff4f5;
+  overflow: hidden;
+}
+.tips {
+  font-size: 0.74667rem;
+  color: #333;
+  line-height: 1.12rem;
+  /* padding: 0 0.26667rem; */
+  margin: 0.53333rem;
+}
+/********************UnlockBox*************************/
+.t-des {
+  width: 79.5%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 1px solid #c6a475;
+  background-color: #fff;
+  -webkit-border-radius: 0.26667rem;
+          border-radius: 0.26667rem;
+  font-size: 0.69333rem;
+  line-height: 0.96rem;
+  padding: 0.4rem 0.53333rem;
+  color: #333333;
+}
+.t-des span {
+  color: #b81313;
+}
+.lock-text .t-det {
+  position: relative;
+  margin-top: 0.4rem;
+}
+.lock-text .t-title {
+  font-size: 0.74667rem;
+  color: #333333;
+  height: 1.12rem;
+  line-height: 1.12rem;
+  text-align: center;
+  margin-bottom: 0.26667rem;
+}
+.lock-text .t-title p {
+  background-color: #b33529;
+  -webkit-border-radius: 0.26667rem;
+          border-radius: 0.26667rem;
+  color: #fffaef;
+  padding: 0 0.4rem;
+  display: inline-block;
+}
+.lock-text .info-des {
+  font-size: 0.69333rem;
+  color: #333333;
+  text-align: center;
+}
+.lock-part1 {
+  width: 94.28%;
+  margin: 0 auto;
+}
+.lock-part1 .part1-title {
+  width: 13.17333rem;
+  margin: 0 auto;
+}
+.lock-part2 {
+  margin-top: 1.06667rem;
+}
+.lock-part2 .part2-title {
+  width: 10.56rem;
+  margin: 0 auto;
+}
+.lock-part2 .master-intr {
+  font-size: 0;
+  margin-top: 0.66667rem;
+}
+.lock-part2 .master-intr > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.lock-part2 .avatar {
+  width: 40%;
+  margin-right: 0.53333rem;
+}
+.lock-part2 .mast-des {
+  padding-right: 0.4rem;
+  width: 57%;
+}
+.lock-part2 .master-info {
+  width: 94.28%;
+  margin: 0.93333rem auto 0;
+}
+.lock-part3 {
+  margin-top: 1.46667rem;
+}
+.lock-part3 .part3-title {
+  width: 15.73333rem;
+  margin: 0 auto;
+}
+.lock-part3 .bef-ten, .lock-part3 .next-ten {
+  width: 94.28%;
+  margin: 0 auto;
+}
+.lock-part3 hr {
+  width: 96%;
+  margin: 1.22667rem 0;
+}
+.lock-part3 .lock-text {
+  margin-top: 0.8rem;
+}
+.lock-part4 {
+  margin-top: 1.86667rem;
+}
+.lock-part4 .part4-title {
+  width: 14.61333rem;
+  margin: 0 auto;
+}
+.lock-part4 li {
+  padding: 0 0.66667rem;
+  margin-top: 0.96rem;
+}
+.lock-tips {
+  width: 14.56rem;
+  margin: 1.73333rem auto 0;
+}
+/********************UnlockBox*************************/
+.popupBtn {
+  min-width: 20rem;
+  max-width: 720px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 3.2rem;
+  position: fixed;
+  bottom: 0;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.5) url('https://s103.ggwan.com/zxcs/forecast/payment/baziyinyuan/bzyy_pay_btn3.png?timestamp=1531359824253') center center no-repeat;
+  background-size: 90% 70%;
+}
+.unlock-main {
+  margin-top: 1.06667rem;
+  padding-bottom: 0.85333rem;
+  margin-bottom: 0.85333rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 0.16rem rgba(252, 219, 221, 0.5);
+          box-shadow: 0 1px 0.16rem rgba(252, 219, 221, 0.5);
+}
+.unlock-main .unlock-tit {
+  padding: 0.53333rem 1.33333rem;
+  text-align: center;
+  font-size: 0.85333rem;
+  background-color: #ed636d;
+  color: #fff;
+  margin-bottom: 1.28rem;
+}
+.unlock-main .main_tips {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 40 32rem;
+  color: #fff;
+}
+.unlock-main .user_exp {
+  margin-top: 0.8rem;
+}
+.unlock-main .user_exp .user_title {
+  text-align: center;
+}
+.unlock-main .user_exp img {
+  width: 18.18667rem;
+}
+.unlock-main .user_exp ul {
+  margin: 0.8rem auto 0;
+  width: 86.667%;
+  -webkit-border-radius: 0.26667rem;
+          border-radius: 0.26667rem;
+  overflow: hidden;
+}
+.unlock-main .user_exp li {
+  font-size: 0;
+}
+.unlock-main .user_exp li div {
+  font-size: 0.8rem;
+  color: #8a265d;
+  height: 1.92rem;
+  line-height: 1.92rem;
+  display: inline-block;
+}
+@media screen and (max-width: 320px) {
+  .unlock-main .user_exp li div {
+    font-size: 0.69333rem;
+  }
+}
+.unlock-main .user_exp li div:first-child {
+  width: 3.73333rem;
+  text-align: center;
+}
+.unlock-main .user_exp li div:nth-child(2) {
+  padding-left: 0.53333rem;
+  border-left: 1px solid #7c194f;
+}
+.unlock-main .user_exp li:nth-child(2n) {
+  background-color: #ffffff;
+}
+.unlock-main .user_exp li:nth-child(2n+1) {
+  background-color: #f2e8ee;
+}
+.unlock-main .zx_part li {
+  margin: 2rem 0.4rem 0;
+  border: 1px solid #fef8ff;
+  position: relative;
+  padding: 1.86667rem 1.01333rem 0.8rem;
+}
+.unlock-main .zx_part .zx_title {
+  width: 18.18667rem;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -9.09333rem;
+  margin-top: -1.41333rem;
+}
+.unlock-main .zx_part p {
+  color: #f8e9f1;
+  font-size: 0.8rem;
+  line-height: 1.06667rem;
+  margin-bottom: 0.93333rem;
+}
+.unlock-main .zx_part .lock {
+  height: 6.77333rem;
+  background: url('//zxcs.ggwan.com/baziyinyuan/images/bzyy_tips_bg.jpg?timestamp=1531359824253') 0 0 no-repeat;
+  background-size: cover;
+  -webkit-border-radius: 0.26667rem;
+          border-radius: 0.26667rem;
+  position: relative;
+}
+.unlock-main .zx_part .lock img {
+  width: 49.22%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.unlock-main .zx_part .pay_unlock {
+  margin-top: 0.85333rem;
+}
+.unlock-main .zx_part .pay_unlock a {
+  display: block;
+}
+.item-base-price {
+  padding: 0.4rem 0.8rem 0.53333rem;
+}
+/*???????*/
+.common-pay-title {
+  border-bottom: 1px solid #e7e5df !important;
+}
+.young-main {
+  background-color: #effef0;
+  overflow: hidden;
+}
+.young-tips {
+  font-size: 0.74667rem;
+  color: #333;
+  line-height: 1.12rem;
+  padding: 0 0.26667rem;
+  margin: 0.53333rem;
+}
+.young-tips span {
+  color: #507f9a;
+}
+.young-popupBtn {
+  width: 100%;
+  min-width: 20rem;
+  max-width: 720px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 3.2rem;
+  position: fixed;
+  bottom: 0;
+  z-index: 10000;
+  background: #507f9a;
+  color: #fff;
+  text-align: center;
+  line-height: 3.2rem;
+}
+.young-unlock-main {
+  margin-top: 1.06667rem;
+  padding-bottom: 0.85333rem;
+  margin-bottom: 0.85333rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 0.16rem rgba(125, 179, 192, 0.5);
+          box-shadow: 0 1px 0.16rem rgba(125, 179, 192, 0.5);
+}
+.young-unlock-main .unlock-tit {
+  padding: 0.53333rem 1.33333rem;
+  text-align: center;
+  font-size: 0.85333rem;
+  background-color: #7db3b6;
+  color: #fff;
+  margin-bottom: 1.28rem;
+}
+/********************PayInfo*************************/
+.common-pay-info {
+  background-color: #fff;
+  margin: 0 0 0.42667rem;
+  -webkit-box-shadow: 0 1px 0.16rem rgba(255, 191, 97, 0.5);
+          box-shadow: 0 1px 0.16rem rgba(255, 191, 97, 0.5);
+  font-size: 0.8rem;
+  color: #333;
+}
+.common-pay-info .item-base-price, .common-pay-info .item-discount {
+  border-bottom: 1px solid #f4f4f4;
+}
+.common-pay-info .item-name {
+  padding: 0.53333rem 0;
+  font-size: 0.85333rem;
+  text-align: center;
+  background-color: #ffbf61;
+  color: #8d570a;
+}
+.common-pay-info .item-base-price {
+  padding: 0.4rem 1.33333rem 0.53333rem;
+}
+.common-pay-info .item-base-price strong {
+  line-height: 1.28rem;
+  height: 1.28rem;
+  display: inline-block;
+  font-weight: normal;
+}
+.common-pay-info .item-base-price .time-price {
+  background-color: #d74040;
+  color: #fff;
+  -webkit-border-radius: 0.21333rem;
+          border-radius: 0.21333rem;
+  padding: 0 0.26667rem;
+}
+.common-pay-info .item-base-price span {
+  font-size: 0.74667rem;
+}
+.common-pay-info .price span {
+  color: #666666;
+  text-decoration: line-through;
+}
+.common-pay-info .dis-time span {
+  color: #e1474a;
+}
+.common-pay-info .item-discount {
+  padding: 0.48rem 1.33333rem;
+}
+.common-pay-info .item-discount span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.common-pay-info .item-discount .icon {
+  padding: 4px 0.32rem;
+  margin-right: 0.48rem;
+  background-color: #d74040;
+  -webkit-border-radius: 0.16rem;
+          border-radius: 0.16rem;
+  color: #fff;
+}
+.common-pay-info .item-discount .right span {
+  padding-top: 0.21333rem;
+}
+.common-pay-info .item-discount-price {
+  padding: 0.48rem 1.33333rem;
+  text-align: right;
+}
+.common-pay-info .item-discount-price span {
+  font-size: 0.74667rem;
+  color: #666666;
+  padding-right: 0.53333rem;
+  display: inline-block;
+}
+.common-pay-info .item-discount-price strong {
+  color: #d74040;
+  font-size: 0.85333rem;
+}
+.common-pay-info .bor-none {
+  border-bottom: none;
+}
+/********************PayInfo*************************/
+.common-pay-lists {
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 0.16rem rgba(255, 191, 97, 0.5);
+          box-shadow: 0 1px 0.16rem rgba(255, 191, 97, 0.5);
+  margin-bottom: 0.58667rem;
+}
+.common-pay-lists .hide {
+  display: none;
+}
+.common-pay-lists .show {
+  display: block;
+}
+.common-pay-lists .common-pay-title {
+  padding: 0.53333rem 1.33333rem;
+  text-align: center;
+  font-size: 0.85333rem;
+  background-color: #ffbf61;
+  color: #8d570a;
+}
+.common-pay-lists .common-item-box {
+  border: 1px solid #fff;
+  border-top: none;
+  -webkit-border-radius: 0 0 0.21333rem 0.21333rem;
+          border-radius: 0 0 0.21333rem 0.21333rem;
+}
+.common-pay-lists .border-style {
+  border: 1px solid #fff;
+  -webkit-border-radius: 0.21333rem;
+          border-radius: 0.21333rem;
+}
+.common-pay-lists .common-pay-item li {
+  height: 2.66667rem;
+  line-height: 2.66667rem;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 0 1.33333rem 0 0.64rem;
+}
+.common-pay-lists .common-pay-item li .auto {
+  font-size: 0.69333rem;
+  color: #666;
+}
+.common-pay-lists .common-pay-item li .pay-btn {
+  background-color: #a6061b;
+  font-size: 0.74667rem;
+  color: #fff;
+  height: 1.70667rem;
+  line-height: 1.86667rem;
+  padding: 0 0.53333rem;
+  -webkit-border-radius: 0.21333rem;
+          border-radius: 0.21333rem;
+  margin-top: 0.48rem;
+  cursor: pointer;
+}
+.common-pay-lists .common-pay-item li .pay-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 2.66667rem;
+  height: 2.45333rem;
+  margin-bottom: 2px;
+}
+.common-pay-lists .common-pay-item li .alipay {
+  background: transparent url('./images/alipay.png') center no-repeat;
+  background-size: 1.25333rem 1.25333rem;
+}
+.common-pay-lists .common-pay-item li .wechat {
+  background: transparent url('./images/wechat.png') center no-repeat;
+  background-size: 1.22667rem 1.22667rem;
+}
+.common-pay-lists .common-pay-item li:last-child {
+  border-bottom: 0;
+}
+.common-pay-lists .more-pay {
+  text-align: center;
+  font-size: 0.69333rem;
+  color: #666;
+  line-height: 2.02667rem;
+  cursor: pointer;
+}
+.common-pay-lists .more-pay span {
+  display: inline-block;
+  width: 0.48rem;
+  height: 0.48rem;
+  vertical-align: text-top;
+  margin-top: 2px;
+  margin-left: 0.37333rem;
+  border-top: 1px solid #666;
+  border-right: 1px solid #666;
+  -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+.common-pay-lists .hide-pay {
+  text-align: center;
+  font-size: 0.69333rem;
+  color: #666;
+  line-height: 2.02667rem;
+  cursor: pointer;
+}
+.common-pay-lists .hide-pay span {
+  display: inline-block;
+  width: 0.48rem;
+  height: 0.48rem;
+  vertical-align: middle;
+  margin-top: 2px;
+  margin-left: 0.37333rem;
+  border-top: 1px solid #666;
+  border-right: 1px solid #666;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.common-pay-lists .safe .safe-tips {
+  color: #2BA13A;
+  margin: 0 1.28rem;
+  padding-bottom: 0.58667rem;
+  border-bottom: 1px dashed #DBDBDC;
+}
+.common-pay-lists .safe .pay-tips {
+  color: #AD342B;
+  height: 1.76rem;
+  line-height: 1.76rem;
+}
+.pay-problem-icon {
+  padding: 0 0.53333rem 0.8rem;
+  color: #b73952;
+  display: block;
+  font-size: 0.69333rem;
+  text-align: left;
+}
+.pay-problem-icon span:first-child {
+  position: relative;
+  display: inline-block;
+  background-color: #b73952;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  width: 0.90667rem;
+  height: 0.90667rem;
+  vertical-align: bottom;
+  margin-right: 0.16rem;
+}
+.pay-problem-icon span:first-child i {
+  display: inline-block;
+  font-style: normal;
+  width: 0.58667rem;
+  height: 0.58667rem;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  background-color: #b73952;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 0.53333rem;
+  text-align: center;
+  line-height: 0.64rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.pay-problem-icon span:nth-child(2) {
+  text-decoration: underline;
+}
+.common-loading-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+.common-loading-layer .back {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .5;
+}
+.common-loading-layer .front {
+  width: 16rem;
+  height: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5rem;
+  margin-left: -8rem;
+  background: #fff;
+  -webkit-border-radius: 0.21333rem;
+  /*no*/
+  /*no*/
+  border-radius: 0.21333rem;
+  /*no*/
+  text-align: center;
+}
+.common-loading-layer .title {
+  text-align: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 0.93333rem;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+.common-loading-layer .title .close {
+  position: absolute;
+  right: 0;
+  padding: 1.25333rem;
+  line-height: 2.50667rem;
+  background: url('//zxcs.ggwan.com/forecastimages/pay_close.png?timestamp=1531359824249') no-repeat center;
+  background-size: 0.61333rem 0.61333rem;
+}
+.common-loading-layer .title .question {
+  color: #a31e1a;
+  font-weight: normal;
+  font-size: 0.66667rem;
+  position: absolute;
+  left: 1.01333rem;
+}
+.common-loading-layer .tips-word {
+  margin: 1.06667rem 1.2rem;
+  text-align: center;
+  font-size: 0.85333rem;
+}
+.common-loading-layer .tips-btn {
+  height: auto;
+}
+.common-loading-layer button {
+  font-size: 0.8rem;
+  background: #a31e1a;
+  color: #fff;
+  border: 0;
+  -webkit-border-radius: 0.26667rem;
+          border-radius: 0.26667rem;
+  height: 2.18667rem;
+}
+.common-loading-layer button a {
+  color: #fff;
+}
+.common-loading-layer .whole {
+  width: 13.06667rem;
+}
+.common-loading-layer .half {
+  width: 5.97333rem;
+  margin: 0 0.50667rem 1.01333rem 0.93333rem;
+}
+.common-loading-layer .gray-button {
+  background: #b1b1b1;
+}
+.unlock-main {
+  background-color: #fff;
+  margin-bottom: 0.74667rem;
+  padding-bottom: 0.74667rem;
+  -webkit-box-shadow: 0 1px 0.16rem rgba(255, 191, 97, 0.5);
+          box-shadow: 0 1px 0.16rem rgba(255, 191, 97, 0.5);
+}
+.unlock-main .unlock-tit {
+  padding: 0.53333rem 1.33333rem;
+  text-align: center;
+  font-size: 0.85333rem;
+  background-color: #ffbf61;
+  color: #8d570a;
+  margin-bottom: 1.28rem;
+}
+.com-unpaid-box .tit {
+  text-align: center;
+}
+.com-unpaid-box .tit span {
+  display: inline-block;
+  padding: 0.42667rem 0.85333rem;
+  text-align: center;
+  font-size: 0.85333rem;
+  background-color: #ffbf61;
+  -webkit-border-radius: 1.33333rem;
+          border-radius: 1.33333rem;
+  color: #8d570a;
+}
+.com-unpaid-box .in {
+  font-size: 0.74667rem;
+  position: relative;
+  padding: 0.85333rem 0 1.33333rem;
+}
+.com-unpaid-box .blur {
+  text-indent: 2em!important;
+  line-height: 1.33333rem;
+  color: #767676;
+  padding: 0 0.69333rem;
+  text-align: justify;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  position: absolute;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+}
+.com-unpaid-box .show-text {
+  display: block;
+  position: relative;
+  z-index: 2;
+  width: 80%;
+  margin-top: 0.8rem;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  padding: 0.64rem 0.85333rem;
+  -webkit-border-radius: 0.21333rem;
+          border-radius: 0.21333rem;
+  background: #fff;
+  border: 1px solid #f7b555;
+}
+.com-unpaid-box .show-text p {
+  text-align: justify;
+  font-size: 0.74667rem;
+  line-height: 1.22667rem;
+}
+.com-unpaid-box .show-text span {
+  color: #991630;
+}
+.com-unpaid-btn {
+  margin: 0 0 0.64rem;
+  font-size: 0.74667rem;
+  padding: 0.64rem 1.38667rem;
+  background-color: #fff;
+  cursor: pointer;
+  color: #333;
+}
+.com-unpaid-btn .right {
+  width: 0.64rem;
+}
+.pay-return-mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 100001;
+}
+.pop-content {
+  width: 18.4rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-border-radius: 0.8rem;
+          border-radius: 0.8rem;
+}
+.pop-content .pop-tit {
+  text-align: center;
+  font-size: 0.96rem;
+  line-height: 2.02667rem;
+  -webkit-border-top-left-radius: 0.8rem;
+          border-top-left-radius: 0.8rem;
+  -webkit-border-top-right-radius: 0.8rem;
+          border-top-right-radius: 0.8rem;
+}
+.pop-content .pop-user-info {
+  margin: 1.06667rem 0.53333rem;
+  font-size: 0.74667rem;
+  line-height: 1.17333rem;
+}
+.pop-content .pop-user-info p {
+  margin-left: 0.8rem;
+}
+.pop-content .pop-user-info p:first-child {
+  padding-top: 0.53333rem;
+}
+.pop-content .pop-user-info p:last-child {
+  padding-bottom: 0.53333rem;
+}
+.pop-content .pop-text {
+  margin: 1.06667rem 0.53333rem;
+  font-size: 0.74667rem;
+  line-height: 1.17333rem;
+  white-space: wrap;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  overflow: hidden;
+}
+.pop-content .pay-pop-btn {
+  font-size: 0.85333rem;
+  margin: 0.26667rem 2.93333rem 0.8rem 2.93333rem;
+  text-align: center;
+  line-height: 2.24rem;
+  -webkit-border-radius: 1.06667rem;
+          border-radius: 1.06667rem;
+}
+.pay-return-mask-close {
+  width: 1.73333rem;
+  height: 1.73333rem;
+  position: absolute;
+  top: -12%;
+  right: 1%;
+  z-index: 10002;
+}
+.pay-popupBtn {
+  display: block;
+  width: 100%;
+  height: 2.66667rem;
+  line-height: 2.56rem;
+  min-width: 20rem;
+  max-width: 720px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  font-size: 1.01333rem;
+  text-align: center;
+  background-color: #ba091f;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  z-index: 10000;
+}
+.public_pay_bottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	font-size: 18px;
+	z-index: 39;
+	display: none;
+	background-color: rgba(0,0,0,.5)
+}
+
+.public_pay_bottom span {
+	display: block;
+	font-size: 18px;
+	background-color: #ed636d;
+	color: #fff;
+	text-align: center;
+}
+
+.public_pay_bottom i {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background: url("images/public_lock.png") center/80% no-repeat;
+	vertical-align: top;
+	margin-right: 5px
+}
+.public_pay_popup {
+	background-color: rgba(0,0,0,.6);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 39;
+	display: none
+}
+
+.public_pp_box {
+	position: absolute;
+	width: 80%;
+	background-color: #fff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	padding: 20px 10px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #3a3a3a;
+	font-size: 16px;
+	border-radius: 6px
+}
+
+.public_pp_price,.public_pp_tit {
+	padding: 10px 0 6px
+}
+
+.public_pp_price strong {
+	color: #ce0000;
+	font-size: 18px
+}
+em,i {
+	font-style: normal;
+}
+.public_pp_close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 40px;
+	color: #666;
+	cursor: pointer
+}
+.public_pay_box {
+	position: relative;
+	padding: 0 10px 10px
+}
+.public_pay_box a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 10px 20px 0;
+	border-radius:20px;
+	text-indent: -9999em
+}
+
+.public_pay_box .alipay {
+	background: url("/statics/ffsm/bazizh/images/m_alipay.png") center center no-repeat #198df4;
+	background-size: 120px
+}
+
+.public_pay_box .paypal {
+	background: url("/statics/ffsm/bazizh/images/m_paypal.png") center center no-repeat #198df4;
+	background-size: 120px
+}
+
+.public_pay_box .weixin {
+	background: url("/statics/ffsm/bazizh/images/m_weixin.png") center center no-repeat #64ab35;
+	background-size: 120px
+}

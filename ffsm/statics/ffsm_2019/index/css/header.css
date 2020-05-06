@@ -1,0 +1,135 @@
+﻿@charset "utf-8";
+/* header的公共样式 */
+.bzsyy-header {
+    height: .96rem;
+    padding: 0 .28rem;
+    font-size: .31rem;
+    background: #fff;
+}
+.back-icon {
+    width: .48rem;
+    height: .48rem;
+}
+.order-icon {
+    width: .51rem;
+    height: .51rem;
+}
+.dq {
+    color: #d9252a;
+    margin-left: .25rem;
+}
+.r-jt {
+    width: .17rem; 
+    height: .3rem;
+    margin: 0 .16rem 0 .12rem;
+}
+.back-home {
+    color: #9c9c9c;
+}
+.menu-icon {
+    width: .48rem;
+    height: .42rem;
+    margin-left: .51rem;
+}
+/* 公共样式菜单栏 */
+.omd_menu_container{
+    width:100%;
+    position: fixed;
+    top: .96rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 2px solid #eeeeee;
+    background-color:rgba(255,255,255,0.9);
+    display: none;
+    transform: translate3d(0,0,0);
+    z-index: 9999;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.omd_menu_container.on{
+    display: block;
+    opacity: 1;
+}
+.omd_menu_container.menuShow{
+    animation: menuin 0.3s forwards ease-out;
+    -webkit-animation: menuin 0.3s forwards ease-out;
+}
+.omd_menu_container.menuHidden{
+    animation: menuOut 0.3s forwards ease-out;
+    -webkit-animation: menuOut 0.3s forwards ease-out;
+}
+@keyframes menuin{
+    from{
+        transform: scale(3);
+        -webkit-transform: scale(3);
+        -ms-transform: scale(3);
+        -moz-transform: scale(3);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes menuOut{
+    from{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        opacity: 1;
+    }
+    to{
+        transform: scale(3);
+        -webkit-transform: scale(3);
+        -ms-transform: scale(3);
+        -moz-transform: scale(3);
+        opacity: 0;
+    }
+}
+.omd_menu_wrap{
+    margin: 0 .3rem;
+}
+.omd_menu_li{
+    width: calc(100% / 3);
+    margin-top: .1rem;
+}
+.omd_menu_a figure img{
+    width: 1.35rem;
+    height: 1.35rem;
+    vertical-align: middle;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.omd_menu_a p{
+    font-size: .32rem;
+    color: #333333;
+    text-align: center;
+    line-height: 2;
+}
+/**pc适配*/
+@media (min-width: 650px) {
+    .omd_menu_a figure img{
+        width: 1.0rem;
+        height: 1.0rem;
+    }
+    .omd_menu_a p{
+        font-size: .24rem;
+    }
+}
+/* 上拉 */
+.slide-up {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.48rem;
+}
+.slide-up img {
+    width: .82rem;
+    height: .82rem;
+    margin: 0 auto;
+}

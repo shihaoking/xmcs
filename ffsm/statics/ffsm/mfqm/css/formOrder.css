@@ -1,0 +1,293 @@
+.text-center {
+    text-align: center;
+}
+
+.form-order-wrapper {
+    position: relative;
+}
+
+.form-order-wrapper .form {
+    position: relative;
+    z-index: 3;
+}
+
+.dashiPayOrder {
+    margin-bottom: 0;
+    line-height: 1rem;
+    position: relative;
+}
+
+.dashiPayOrder .form-groups {
+    margin-bottom: 0;
+    padding: .2rem 0;
+    border-bottom: dashed 2px #e1e1e1;
+    position: relative;
+    font-size: .45rem;
+    padding-bottom: .2rem;
+}
+
+.dashiPayOrder .form-group {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.dashiPayOrder .form-group p {
+    margin: 0 auto;
+}
+
+.dashiPayOrder .form-group p i {
+    padding: 0 0 0 .5em;
+}
+
+.dashiPayOrder .form-group .order-info-title {
+    text-align: center;
+    font-family: "jingdianlibian";
+    font-size: .6rem;
+    padding-left: 1em;
+}
+
+.dashiPayOrder .form-group .order-info-content {
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    font-size: .533rem;
+}
+
+.dashiPayOrder .form-group .order-info-content.contentUnknow {
+    padding-left: 1.8rem;
+}
+
+.dashiPayOrder .userInfoFamilyName .order-info-content,
+.dashiPayOrder .userInfoGender .order-info-content {
+    padding-left: 2.5rem;
+}
+
+.dashiPayOrder .avBoxTitle i {
+    font-style: normal;
+}
+
+.dashiPayOrder .order .hotPrice {
+    display: block;
+    position: relative;
+    font-weight: normal;
+    font-size: 0.4444rem;
+    color: #2b2b2b;
+    text-align: center;
+    line-height: 1;
+}
+
+.dashiPayOrder .text-primary-red {
+    color: #DE3648;
+}
+
+.dashiPayOrder .addWeixinBox {
+    text-align: center;
+    line-height: 1.7;
+    padding-bottom: 1em;
+}
+
+.dashiPayOrder .addWeixinBox img {
+    display: block;
+    margin: .5em auto;
+}
+
+.dashiPayOrder .pay-methods {
+    padding: 0 .5rem;
+}
+
+.dashiPayOrder .pay-methods li {
+    margin-bottom: .3rem;
+}
+
+.dashiPayOrder .pay-methods li a {
+    display: block;
+    width: 100%;
+    height: 1.0833rem;
+    line-height: 1.0833rem;
+    border-radius: 1.0833rem;
+    font-size: .5rem;
+    text-align: center;
+    background: center no-repeat;
+    color: #fff;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.dashiPayOrder .pay-methods .wxpay a {
+    background-color: #6cb333;
+}
+
+.dashiPayOrder .pay-methods .wxpay a:active {
+    outline: 0;
+}
+
+.dashiPayOrder .pay-methods .wxpay a:active {
+    background-color: #5fa327;
+}
+
+.dashiPayOrder .pay-methods .alipay a {
+    background-color: #0099ff;
+}
+
+.dashiPayOrder .pay-methods .alipay a:active {
+    background-color: #0382d6;
+}
+
+.dashiPayOrder .pay-methods .wxpay a>span:before,
+.dashiPayOrder .pay-methods .alipay a>span:before {
+    display: inline-block;
+    font-size: .7rem;
+    margin-right: .2rem;
+    font-family: iconfont !important;
+    vertical-align: middle;
+    margin-bottom: .2em;
+}
+
+.dashiPayOrder .pay-methods .wxpay a>span:before {
+    content: '\e61a';
+}
+
+.dashiPayOrder .pay-methods .alipay a>span:before {
+    content: '\e618';
+}
+
+
+/**
+ * 取名套餐选择
+ */
+
+.dashiPayOrder .order-plans-wrapper {
+    width: 8.611rem;
+    padding: 0;
+    margin: .7rem auto 0;
+}
+
+.dashiPayOrder .order-plans {
+    padding: 0;
+    line-height: 1;
+    position: relative;
+    height: auto;
+}
+
+.dashiPayOrder .order-plans .plans-title {
+    display: block;
+    margin-bottom: .2rem;
+}
+
+.dashiPayOrder .order-plans .plan {
+    display: block;
+    border: solid 1px #ddd;
+    padding: .3rem .1rem;
+    border-radius: .15rem;
+}
+
+.dashiPayOrder .order-plans .plan i {
+    float: none;
+    color: #e20000;
+    padding: 0;
+}
+
+.dashiPayOrder .order-plans .plan+.plan {
+    margin-top: .2rem;
+}
+
+.dashiPayOrder .order-plans span {
+    float: none;
+    margin-right: .3em;
+}
+
+.dashiPayOrder .order-plans .icon-suc-green:before {
+    content: "\e60b";
+    color: #b4b4b4;
+}
+
+.dashiPayOrder .order-plans .current .icon-suc-green:before {
+    content: "\e606";
+    color: #17d412;
+}
+
+.dashiPayOrder .order-price .hotPrice {
+    position: relative;
+    display: inline-block;
+}
+
+.dashiPayOrder .order-price .price {
+    font-size: .6rem;
+    font-style: normal;
+    padding-left: .5em;
+}
+
+.form-order-wrapper .order-price .priceDiscount {
+    color: #999;
+    position: absolute;
+}
+
+
+/* wap 表单样式 */
+
+.form-order-wrapper.style-1 .dashiPayOrder {
+    background: #FDF3E2;
+}
+
+.form-order-wrapper.style-1 .order-price .hotPrice {
+    display: block;
+    padding-top: 1em;
+}
+
+.form-order-wrapper.style-1 .order-price .priceDiscount {
+    width: 5em;
+    display: block;
+    top: .5em;
+    left: 1em;
+    text-decoration: line-through;
+    font-family: "jingdianlibian";
+    font-size: .5rem;
+}
+
+
+/* wap2 表单样式 */
+
+.form-order-wrapper.style-2 .dashiPayOrder {
+    background: #fff;
+}
+
+.form-order-wrapper.style-2 .order-price .hotPrice {
+    display: inline-block;
+    padding-top: 1.5em;
+}
+
+.form-order-wrapper.style-2 .order-price .priceDiscount {
+    top: 1.5em;
+    left: 0;
+    line-height: 1;
+}
+
+.form-order-wrapper.style-2 .order-price .price {
+    font-size: 1.3rem;
+}
+
+.form-order-wrapper.style-2 .form-group .order-info-content {
+    color: #6a3906;
+}
+
+.form-order-wrapper.style-2:before,
+.form-order-wrapper.style-2:after {
+    content: '\e61c';
+    display: block;
+    width: 100%;
+    font-family: iconfont !important;
+    background: url(../images/pattern-1.png) left center;
+    background-repeat: repeat-x;
+    color: #caa177;
+    font-size: 0;
+    height: .3rem;
+    background-size: .4rem;
+}

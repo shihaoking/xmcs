@@ -1,0 +1,84 @@
+﻿@charset "utf-8";
+.comWidth {
+    padding: 0 2.5% .53rem;
+    background: #7e1a1a;
+}
+/* 顶部的图片 */ 
+.banner {
+    width: 100%;
+    max-height: 4.6rem;
+    overflow: hidden;
+}
+/* 专业批命成功掌握先机 */
+.major-reckon {
+    margin-top: -1px;
+}
+.title-icon {
+    width: 4.6rem;
+    height: .79rem;
+    background: url('../images/ysys-titlebg.png');
+    background-size: 100% 100%;
+    font-size: .25rem;
+    color: #d62d26;
+    text-align: center;
+    line-height: .76rem;
+}
+/* 专业批命成功掌握先机的信息填写 */
+.information {
+    background: url('../images/information-ysysbg.png') no-repeat;
+    background-size: 100% 100%;
+    margin-top: .5rem;
+    padding: 1.3rem .13rem .32rem;
+}
+.information-list {
+    width: 6.54rem;
+}
+.input-text {
+    font-size: .3rem;
+}
+/* 测算按钮 */
+.start-btn {
+    margin: .33rem 0;
+}
+.total {
+    font-size: .31rem;
+    color: #3d3c3d;
+    margin-bottom: .2rem;
+}
+.total i {
+    color: #d13036;
+}
+/* 紫薇斗数能为您解答哪些困惑  */
+.img_list {
+    margin-top: .5rem;
+}
+/* 来自测算用户的真实评价 */
+.user-feedback {
+    background: url('../images/feedback-ysysbg.png') no-repeat;
+    background-size: 100% 100%;
+    margin-top: .5rem;
+    padding: 1.5rem 0 .88rem;
+}
+.pj-width {
+    padding: 0 .25rem .27rem;
+}
+.informations {
+    background: url('../images/ysys-information-last.png');
+    background-size: 100% 100%;
+    margin: .31rem 2.5%;
+    padding: 1.31rem 0 .76rem;
+}
+.information-list {
+    margin-bottom: .4rem;
+}
+.information-list li {
+    border-bottom: 1px solid #e8e7e5;
+}
+.last-information .start-btn {
+    margin: .37rem auto .18rem;
+}
+.footer-logo {
+    background: #fff;
+    padding-top: .36rem;
+    padding-bottom: 1.57rem;
+}

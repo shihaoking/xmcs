@@ -1,0 +1,35 @@
+﻿@charset "utf-8";
+.footer-logo {
+    padding-left: .68rem;
+    padding-right: .68rem;
+}
+.footer-logo img:nth-child(2) {
+    margin: 0 .43rem;
+}
+.bottom-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 33;
+}
+.bottom-btn img {
+    height: 1.17rem;
+    margin: 0 auto;
+    max-width: 620px;
+}
+/* 回到顶部 */
+.back-top{
+    position: fixed;
+    right: 0.2rem;
+    bottom: 1.46rem;
+    z-index: 9;
+}
+.back-top span {
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0.2) url(../images/backtop.png) no-repeat center;
+    background-size: 0.35rem 0.2rem;
+}

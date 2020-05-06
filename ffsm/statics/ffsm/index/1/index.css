@@ -1,0 +1,18 @@
+body {background-color:#f9f3eb;}
+.header_top_title {text-align:center;color:#4f4f4f;font-size:22px;display:block;font-weight:400}
+
+.btn_rightnow {display:block;background-color:#ee4d4d;font-size:16px;color:#fff;line-height:35px;text-align:center;margin-top: 5px;}
+.btn_rightnow:hover {background-color:#a83b00}
+.about_content {padding:10px 10px 20px;line-height:25px;background:#fff}
+.ac_title {font-size:20px;color:#000;text-align:center}
+.ac_service {padding:10px 0 5px;font-size:14px}
+.ac_service a:last-child {margin:0}
+.ac_weixin,.ac_qq {display:block;border-radius:5px;border-width:1px;border-style:solid;margin:0 0 10px;padding:10px 0 10px 24%;box-sizing:border-box;overflow:hidden;color:#3e272c;position:relative;min-height:48px}
+.ac_weixin img,.ac_qq img {height:40px;position:absolute;left:12%;top:50%;transform:translate(-50%,-50%)}
+.ac_service .infor {line-height:24px}
+.ac_service .infor strong {font-size:18px}
+.ac_weixin {background-color:#eef8d6;border-color:#e6acac}
+.ac_weixin strong {color:#73ac0b}
+.ac_qq {background-color:#e4fcff;border-color:#81d7e2}
+.ac_qq strong {color:#ff3c65}
+.ac_us {background:red;color:#fff;display:block;padding:10px 0;text-align:center;border-radius:5px}

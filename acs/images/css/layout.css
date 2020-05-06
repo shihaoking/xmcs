@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* ==========================================================
+	* Copyright (c) 2010, kyw.5988vip.cn. All rights reserved.
+	* Date:2010-1-12
+	* Author: cai@115.com
+	* File: layout.css
+============================================================*/
+
+
+html,body { height:100%; overflow:hidden;}
+/**/
+body { line-height:1.5;}
+.wrap { height:100%; overflow:hidden;}
+
+#header { height:34px; background: url(../images/repeat_x.png) repeat-x; position: relative; font-size:12px;}
+	#logo { height:30px; overflow:hidden;}
+	#logo a,#logo a:hover { background:url(../images/logo.gif) no-repeat; text-indent:-9999px; overflow:hidden; height:30px; display:block; width:160px;} 
+	.user-panel { position:absolute; line-height:30px; top:0; right:20px;}
+	#quick-link {
+		position:absolute; left:180px; top:0; height:30px; line-height:30px;	
+	}
+	
+#sidebar {width:160px;border-right:1px solid #BCD6E7;}
+.side-wrap { _height:1%;}
+	
+	#menu { font-size:14px;}
+	#menu a.dir{  color:#666; overflow:hidden; display:block;height:28px; line-height:28px; background: url(../images/repeat_x.png) repeat-x 0 -212px; border-bottom:1px solid #BCD6E7;}
+	#menu a.dir span { padding-left:20px; background: url(../images/icons.gif) no-repeat;}
+	#menu a.dir .close { background-position:-4px -16px; }
+	#menu a.dir .open { background-position:-4px -68px;color:#000; font-weight:bold;}
+	
+	#menu li ul { border-bottom:1px solid #BCD6E7; background-color:#E6F3FB; padding:10px; overflow:hidden; zoom:1; display:none;}
+	#menu li ul a {display:block; height:22px; line-height:22px; padding: 0 10px; font-size:12px; color:#000;}
+	#menu li ul a:hover { background-color:#D1E2F3;}
+	#menu a.current,#menu a.current:hover { background-color:#498CD2; color:#fff; }
+#main {}
+.main-wrap { height:100%;}
+	#nav_td { height:25px;}
+	#nav { height:25px; line-height:25px; font-size:12px; background:url(../images/repeat_x.png) repeat-x 0 -54px; color:#999;}
+	
+
+
+
+#footer { clear:both; text-align:center;}

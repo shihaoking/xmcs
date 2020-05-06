@@ -1,0 +1,90 @@
+﻿@charset "utf-8";
+.container {
+    background-color: #efe8e5;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: .37rem;
+}
+.comWidth {
+    width: 94.7%;
+    margin: 0 auto;
+}
+.lathy-dx {
+    margin-top:  .36rem;
+}
+/* 信息填写 */
+.information-warp {
+    margin-top: .5rem;
+}
+.information-list {
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #eee1d5;
+}
+input {
+    font-size: .3rem;
+}
+.information-list input:-ms-input-placeholder{
+    color: #939393;
+}
+.information-list input::-webkit-input-placeholder {
+    color: #939393;
+}
+.information-list li.flex {
+    border-bottom: 1px solid #eee1d5;
+    width: 100%;
+    color: #939393;
+    height: .93rem;
+    line-height: .93rem;
+}
+.information-list li.flex>div {
+    color: #c90000;
+    font-size: .32rem;
+    padding-left: .2rem;
+}
+li.flex .selected-icon {
+    width: .35rem;
+    height: .35rem;
+}
+.sex-man p,
+.sex-woman p {
+    font-size: .32rem;
+    color: #494745;
+}
+/* 测算按钮 */
+.start-btn {
+    margin-top: .2rem;
+}
+/* 测算人数 */
+.total {
+    font-size: .3rem;
+    color: #303030;
+    padding: .33rem .44rem 0;
+}
+.total i,
+.total a {
+    color: #f75050;
+}
+.total a {
+    text-decoration: underline;
+}
+/* 老师一语道破 */
+.img_list {
+    margin-top: .5rem;
+}
+/* 用户评价 */
+.user-feedback {
+    margin-top: .5rem;
+    border: 1px solid #dc9974;
+    border-radius: .15rem;
+    background-color: #fff;
+    padding-bottom: .2rem;
+}
+.title-icon {
+    margin: .3rem 0 .38rem;
+}
+.footer-logo {
+    background: #fff;
+    padding-top: .36rem;
+    padding-bottom: 1.57rem;
+}

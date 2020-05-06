@@ -1,0 +1,48 @@
+﻿/* 大家都在测 */
+#vue_app .footer-logo {
+    padding-bottom: .3rem;
+}
+.hot_cs {
+    border-top: .2rem solid #f3f3f3;
+    padding: 0 .33rem;
+    background: #fff;
+    color: #585858;
+    font-size: 14px;
+}
+.hotcs_title {
+    font-size: .35rem;
+    padding: .3rem 0;   
+}
+.hotcs_item {
+    width: 1.4rem;
+    margin-right: .4rem;
+    margin-bottom: .25rem;
+}
+.hotcs_item:nth-child(4n) {
+    margin-right: 0;
+}
+.hotcs_item img {
+    height: 1.4rem;
+    margin-bottom: .15rem;
+}
+h4 {
+    font-size: .24rem;
+    text-align: center;
+}
+.swiper-wrapper {
+    margin-bottom: .5rem;
+}
+.swiper-container .swiper-pagination {
+    bottom: 0 !important;
+}
+.swiper-container .swiper-pagination-bullet{
+    width: .22rem;
+    height: .22rem;
+    border-radius: 30px;
+    background: #e6e6e6;
+    margin: 0 .05rem;
+    opacity: 1;
+}
+.swiper-container .swiper-pagination-bullet-active {
+    width: .5rem;
+}

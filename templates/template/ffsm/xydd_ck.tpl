@@ -1,0 +1,1 @@
+<{$isdj}>ok<section class="shop-common-tip-layer"><div class="back"></div><div class="front"><span><{$info}></span></div></section>

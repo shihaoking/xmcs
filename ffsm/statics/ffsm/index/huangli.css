@@ -1,0 +1,8 @@
+﻿table.Border td{line-height:24px;}
+table.Border .yi {border-top:0;background: #ff4444;color: #ffffff;font-weight:bold;text-align:center;font-size:30pt;line-height:80px;height:80px;}
+table.Border .ji {background: #ffee44;color: #000;font-weight:bold;text-align:center;font-size:30pt;line-height:80px;}
+table.Border .yic {padding:12px;background: #ffffaa;text-align:left;border-top:0;}
+table.Border .jic {padding:12px;background:#ffddd3;text-align:left;}
+table.rili {border:0;text-align:center;border-collapse:collapse;background: #ececec;line-height:22px;}
+table.rili .bb span {font-size: 14px;color: #ff0000;}
+table.rili .bb td p {font-size: 30px;color: #FF5722;font-weight:bold;line-height:40px;}

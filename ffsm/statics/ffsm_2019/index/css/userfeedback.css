@@ -1,0 +1,58 @@
+﻿.pj-width {
+    padding: 0 .15rem .27rem;
+}
+.pj-content {
+    background-color: #fff;
+    padding: 0 .23rem;
+}
+.pj-item {
+    color: #656565;
+    font-size: .25rem;
+}
+.pj-item p {
+    border: 1px solid #9c9c9c;
+    padding: .13rem .05rem;
+    border-radius: 5px;
+    margin-top: .2rem;
+    font-size: .25rem;
+}
+@media (max-width: 320px) {
+    .pj-item p {
+        width: 45%;
+        text-align: center;
+    }
+}
+.autoscroll {
+    height: 9.83rem;
+    overflow: hidden;
+    margin-top: .13rem;
+}
+.autoscroll-list {
+    font-size: .25rem;
+    color: #656565;
+    position: relative;
+}
+.autoscroll-list li {
+    padding: .25rem 0 .23rem;
+    border-bottom: 1px solid #d1d1d1;
+}
+.autoscroll-list .name-adress i {
+    font-size: .3rem;
+    color: #000;
+    margin-right: .2rem;
+}
+.autoscroll-list .row:nth-child(2) {
+    padding: .07rem 0 .15rem;
+}
+.name-address i {
+    font-size: .3rem;
+    color: #000;
+    padding-right: .2rem;
+}
+.autoscroll-list img {
+    width: 1.9rem;
+    height: .3rem;
+}
+.user-describe {
+    line-height: .38rem;
+}

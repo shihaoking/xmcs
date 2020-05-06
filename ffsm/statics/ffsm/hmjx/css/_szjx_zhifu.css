@@ -1,0 +1,141 @@
+﻿.bzjp_zf_container{padding:0.1rem 0.1rem 1.2rem;background: #F7EFDC;}
+        /* top */
+        .bzjp_color{color:#f73232;}
+       .bzjp_zf_top{
+           background:url('../images/forum_01.png') no-repeat;
+           background-size:100% 100%;
+           margin-bottom: 0.2rem;
+       }
+       .redColor{color:#f73232;font-size:0.32rem;font-weight: 600;}
+       .bzjp_zf_flex{
+           display: flex;
+           padding:0.5rem 0.3rem 0;
+           align-items: center;
+       }
+       .dashi_head{ 
+           width:2.87rem;
+           height:3.69rem;
+           flex-shrink: 0;
+       }
+       .bzjp_zf_content{}
+       .bzjp_zf_content p{font-size:0.28rem;color:#333333;}
+       .bzjp_zf_content p.TImemoney{
+           font-size:0.24rem;
+           color:#333333;
+           padding-top:0.14rem;
+           padding-bottom: 0.2rem;
+           text-align: center;
+        }
+        .bzjp_zf_content p.jx_num{margin:0.1rem 0;}
+       .ljck_btn{
+           background-color:#f73232;
+           font-size:0.32rem;
+           color:#ffffff;
+           text-align: center;
+           border-radius: 0.7rem;
+           height:0.8rem;
+           line-height: 0.8rem;
+           width:80%;
+           margin:0 auto;
+        }
+        .bzjp_zf_time{font-size:0.24rem;color:#333333;padding:0.2rem 0;text-align: center;}
+        
+        /* center */
+        .bzjp_zf_center{background-color:#ffffff;padding:0.2rem;}
+        .bzjp_zf_center_bg{
+            background:url('../images/img_mohu.png') no-repeat;
+            background-size:100% 100%;
+            box-sizing: content-box;
+            background-color:#ffffff;
+            height:8.84rem;
+            color:#333333;
+            text-align: center;
+            position: relative;
+        }
+        .bzjp_zf_center_title{padding-top:0.2rem;font-size:0.48rem;width:85%;margin: 0 auto;}
+        .bzjp_zf_center_lineNum{font-size:0.27rem;padding-top:0.3rem;padding-bottom: 0.4rem;}
+        .bzjp_zf_center_bg .zf_line{width:85%;margin:0 auto;font-size:0.27rem;text-align: left;margin-bottom: 0.1rem;line-height: 0.5rem;}
+        .bzjp_zf_center_bg .J_btn{width:75%;margin:0.7rem auto 0;}
+        .bzjp_zf_center_bg .J_btn img{vertical-align: middle;}
+        .bzjp_zf_center_foot{font-size:0.28rem;color:#000000;position: absolute;width:100%;bottom:0.3rem;}
+
+        /* foot */
+        .bzjp_zf_foot_wrap{background-color:#ffffff;padding:0.2rem;}
+        .bzjp_zf_foot_title{
+            font-size:0.32rem;color:#333333;
+            padding:0.6rem 0;
+            text-align: center;
+        }
+        .bzjp_zf_foot_title::before,.bzjp_zf_foot_title::after{
+            content:'';
+            background:url('../images/img_icon.png') no-repeat;
+            background-size:100% 100%;
+            width:0.4rem;
+            height:0.4rem;
+            display:inline-block;
+            vertical-align: middle;
+        }
+        .bzjp_zf_foot_title::before{margin-right:0.2rem;}
+        .bzjp_zf_foot_title::after{margin-left:0.2rem;}
+        .bzjp_zf_foot_list{}
+        .bzjp_zf_foot_list li{list-style: none;padding-bottom: 0.6rem;}
+        .bzjp_zf_foot_list li h3{
+            font-size:0.32rem;
+            color:#333333;
+            font-weight: 600;
+            padding-bottom: 0.3rem;
+        }
+        .bzjp_zf_foot_list li h3::before{
+            content: '';
+            width:0.30rem;
+            height:0.34rem;
+            display: inline-block;
+            margin-right:0.3rem;
+            background:url('../images/img_sanjiao icon.png') no-repeat;
+            background-size:100% 100%;
+            vertical-align: middle;
+        }
+        .bzjp_zf_foot_list li p{font-size:0.27rem;margin-bottom: 0.12rem;}
+        .bzjp_zf_foot_list li p:last-child{margin-bottom:0; }
+        .bzjp_zf_fiexd_btn{
+            position: fixed;
+            bottom: 0;
+            left:0;
+            width: 100%;
+            z-index: 33;    
+        }
+        .btn_bg{
+            background:url('../images/pngimg_btn_xuanfu.png') no-repeat;
+            background-size:100% 100%;
+            height:1rem;
+            width:7.3rem;
+            margin:0 auto;
+        }
+
+        /* fenxi */
+        .hmfx_wrap{
+            height:5.16rem;
+            background: url('../images/f_02.png') no-repeat;
+            background-size:100% 100%;
+            margin-bottom: 0.2rem;
+            position: relative;
+        }
+        .fx_btn{
+            position: absolute;
+            width:50%;
+            height:0.9rem;
+            line-height: 0.9rem;
+            color:#ffffff;
+            background-color:#f73232;
+            border-radius: 0.9rem;
+            font-size:0.3rem;
+            left:50%;
+            margin-left:-25%;
+            bottom:0.3rem;
+            text-align: center;
+        }
+        /* pay erweima */
+        #qrcode img{
+            margin:0 auto;
+        }
+        

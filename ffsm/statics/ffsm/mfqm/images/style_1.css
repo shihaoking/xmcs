@@ -1,0 +1,1277 @@
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+}
+
+body.page-names-list {
+    background-color: #efefef;
+}
+
+.site-header {
+    background-color: #efefef;
+}
+
+.nav-menu-namelist {
+    background: #fff;
+}
+
+.nav-menu-namelist.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 9999;
+    -webkit-box-shadow: 0 .1rem .1rem rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 .1rem .1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 .1rem .1rem rgba(0, 0, 0, .1);
+}
+
+.nav-menu-namelist li {
+    width: 25%;
+    text-align: center;
+    padding: .3rem 0;
+    border-bottom: solid 2px transparent;
+    box-shadow: 1px 0 0 #ddd;
+}
+
+.nav-menu-namelist li a {
+    position: relative;
+    display: block;
+    font-size: 100%;
+}
+
+.nav-menu-namelist li.active {
+    border-color: #982324;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, .1);
+}
+
+.nav-menu-namelist li.active a {
+    color: #982324;
+}
+
+.tab-content>li {
+    display: none;
+}
+
+.tab-content>li.active {
+    display: block;
+}
+
+.guansha {
+    background-color: #fff;
+    margin-top: .5rem;
+    padding: 0;
+}
+
+.guansha .guanshaList,
+.guansha>p {
+    padding: 0 .3rem;
+}
+
+.g-block-white.namelist-intro-3 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.name-result .basic .item {
+    align-items: center;
+}
+
+.name-result .basic .item+.item {
+    border: none;
+    border-top: solid 1px #ddd;
+}
+
+.name-result .basic .item:nth-child(2n) {
+    background-color: #f7f7f7;
+}
+
+.name-result .basic .item:last-child {
+    border-bottom: none;
+}
+
+.name-result .basic .item>div {
+    width: 30%;
+    position: relative;
+    padding: .5em 0;
+}
+
+.name-result .basic .item>div:last-child {
+    box-shadow: -1px 0 0 #ddd;
+}
+
+.name-result .basic .item>div+div {
+    width: 70%;
+}
+
+.name-result .basic .item>div+div p {
+    padding-left: 1em;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.name-result .basic .item>div+div p .user_sex,
+.name-result .basic .item>div+div p .user_family_name {
+    padding-left: 2.5rem;
+}
+
+.basic-info .g-pattern.type-1 {
+    margin-bottom: 0;
+}
+
+.name-result .basic .item {
+    position: relative;
+    padding: 0;
+}
+
+.g-block-white {
+    border: none;
+}
+
+.name-result .basic-box {
+    position: relative;
+}
+
+.user-feedback-list {
+    padding: .1rem .3rem 0;
+    background: #fff;
+}
+
+.user-feedback-list .icon-user,
+.user-feedback-list .icon-follow {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user-feedback-list .icon-user,
+.user-feedback-list .icon-follow {
+    background: center no-repeat;
+    margin-right: .3em;
+}
+
+.user-feedback-list .icon-user {
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 1.6em;
+    background-image: url(../images/icon_user.png);
+    background-size: 50%;
+    box-shadow: 0 0 0 1px #6a3906;
+    background-color: #fff7e7;
+}
+
+.user-feedback-list .icon-follow {
+    background-image: url(../images/icon_follow.png);
+    background-size: 80%;
+    border-radius: 0;
+    margin-top: -.1rem;
+    width: 1em;
+    height: 1em;
+}
+
+.user-feedback-list ul li {
+    margin-bottom: 1em;
+    border-bottom: dashed 1px #b5b5b5;
+}
+
+.user-feedback-list p {
+    line-height: 1.8;
+}
+
+.user-feedback-list .tags {
+    padding: .5em 0;
+}
+
+.user-feedback-list .tags span {
+    display: inline-block;
+    background-color: #fff7e7;
+    padding: .3em .5em;
+    margin-right: .5em;
+    color: #6a3906;
+}
+
+.user-feedback-list .feedback-user-info {
+    border-bottom: solid 1px #d2d2d2;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    position: relative;
+    color: #666;
+    padding-left: .1em;
+}
+
+.user-feedback-list .user-follow {
+    position: absolute;
+    right: 0;
+}
+
+.namelist-intro-3 .process h4 a,
+.namelist-intro-3 .servics-contact a.btn {
+    background-image: url(../images/btn_border.png);
+    color: #333;
+}
+
+.namelist-intro-3 .process h4:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #d88b94 transparent transparent transparent;
+    border-width: .6em;
+    left: 50%;
+    margin-left: -.6em;
+    top: 130%;
+}
+
+.item-addWeixin {
+    background-color: #982324;
+    color: #fff;
+}
+
+.item-addWeixin .btn-add {
+    position: absolute;
+    right: 1em;
+    display: inline-block;
+    height: 1.5em;
+    line-height: 1.5em;
+    top: 50%;
+    margin-top: -.75em;
+    background-color: #b2182a;
+    color: #fff;
+    box-shadow: 0 0 .1rem rgba(209, 203, 39);
+    padding: 0 .3em;
+}
+
+.item-addWeixin {
+    text-align: center;
+    padding-left: 1em;
+}
+
+.item-addWeixin .icon-addWeixin {
+    background-image: url(../images/icon_weixin.png);
+    display: none;
+}
+
+.item-addWeixin .weixinAccount {
+    color: #fff !important;
+    background-color: #982324;
+}
+
+.uer-feedback-scroll {
+    height: 10rem;
+    overflow: hidden;
+    margin-bottom: .5rem;
+}
+
+.uer-feedback-scroll ul {
+    position: relative;
+}
+
+.name-explain p {
+    margin-bottom: .5em;
+}
+
+.namelist-intro-3 p span {
+    font-weight: bold;
+}
+
+.name-result .bazi-details {
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+.site-header .my-order {
+    background-color: #982324;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 1.6em;
+    line-height: 1.6em;
+    margin-top: -.9em;
+    padding-left: .5em;
+    padding-right: .5em;
+    box-shadow: 0 0 .3em rgba(219, 32, 55, .3);
+}
+
+.main-content-namelist .get-name-intro {
+    background-color: #fff;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.g-title-primary {
+    margin: 0 auto;
+}
+
+.weixinAccount,
+.weixinAccount:visited,
+.weixinCode:visited,
+.weixinCodeText:visited {
+    color: #982324;
+}
+
+.name-details-info {
+    padding-top: 2vh;
+}
+
+.name-details-info .name-explain {
+    padding-bottom: 1em;
+}
+
+.name-details-info .name-explain>div {
+    margin-bottom: 1em;
+}
+
+.name-details-info .name-explain>div:last-child {
+    margin-bottom: 0;
+}
+
+.name-details-info .title {
+    color: #982324;
+    font-size: 120%;
+}
+
+.name-details-info .title img {
+    height: 1em;
+    vertical-align: middle;
+    margin-right: .3em;
+}
+
+.name-details-info .description {
+    color: #666;
+}
+
+.name-details-info .name-explain>div:last-child .description {
+    margin-bottom: 0;
+}
+
+.btn-get-name-wrapper {
+    padding: 2vh 0;
+    background-color: #efefef;
+}
+
+.btn-get-name {
+    border-radius: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.surname-radios span {
+    position: relative;
+}
+
+.surname-radios i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    border-radius: 1em;
+    border: solid 1px #666;
+    margin-right: .3em;
+    position: relative;
+}
+
+.surname-radios a+a {
+    margin-left: 1em;
+}
+
+.surname-radios .active i::before {
+    content: '';
+    display: block;
+    width: .6em;
+    height: .6em;
+    background-color: #982324;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -.3em;
+    margin-left: -.3em;
+    border-radius: .8em;
+}
+
+.basic-info {
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+.name-result-more a {
+    margin: 0 auto 0;
+    border: none;
+    color: #666;
+}
+
+.name-result-more .icon-get-more {
+    display: none;
+}
+
+.namelist-warpper {
+    padding-top: 2vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name-list {
+    padding-top: 2vh;
+}
+
+@font-face {
+    font-family: "huawenxingkai";
+    src: url("/Public/fonts/huawenxingkai/iconfont.eot");
+    src: url("/Public/fonts/huawenxingkai/iconfont.eot?#iefix") format("embedded-opentype"), url("/Public/fonts/huawenxingkai/iconfont.woff") format("woff"), url("/Public/fonts/huawenxingkai/iconfont.ttf") format("truetype"), url("/Public/fonts/huawenxingkai/iconfont.svg#iconfont") format("svg")
+}
+
+.basic-info-1 {
+    background-color: #fff;
+    margin-top: 2vh;
+    padding-top: 2vh;
+}
+
+.basic-info-1 .basic-info {
+    border-top: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
+    margin-top: 2vh;
+}
+
+.audio-xiyongshen {
+    background: #fff;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 3vh;
+}
+
+.baziDetailsTips.sytle-1 .audio-tips {
+    background-color: #fff;
+}
+
+.info-shengxiao {
+    background-color: #fff;
+    padding: 2vh 0;
+}
+
+.name-result .zodiac {
+    padding: 0;
+}
+
+.name-result .zodiac>.title {
+    border-top: solid 1px #ddd;
+    margin: 2vh auto 0;
+    padding: 2vh 0 1vh;
+    font-family: 'huawenxingkai';
+    font-size: 150%;
+}
+
+.name-result .zodiac>.title span {
+    color: inherit;
+}
+
+.name-result .zodiac p {
+    margin: 0 auto;
+}
+
+.info-shengxiao {
+    margin-bottom: 2vh;
+}
+
+.wuxing-data li {
+    display: flex;
+    align-content: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: #a02224
+}
+
+.wuxing-data .wuxing-percentage {
+    display: inline-block;
+    height: 1em;
+    vertical-align: middle;
+    min-width: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.wuxing-data .wuxing-percentage.jin {
+    background-color: #f9e75f;
+}
+
+.wuxing-data .wuxing-percentage.mu {
+    background-color: #78e080;
+}
+
+.wuxing-data .wuxing-percentage.shui {
+    background-color: #5faaf9;
+}
+
+.wuxing-data .wuxing-percentage.huo {
+    background-color: #eb5152;
+}
+
+.wuxing-data .wuxing-percentage.tu {
+    background-color: #9367e2;
+}
+
+.wuxing-data em {
+    font-weight: normal;
+}
+
+.wuxing-data-wrapper p {
+    color: #666;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+}
+
+.info-bazi {
+    background-color: #fff;
+    padding: 2vh 0 0;
+}
+
+.name-result .bazi {
+    border: none;
+    border-top: solid 1px #ddd;
+}
+
+.name-result .bazi ul:not(:first-child) li:first-child {
+    background-color: #f7f7f7;
+}
+
+.name-result .bazi ul:first-child li:first-child,
+.name-result .bazi ul:not(:first-child) li:first-child,
+.name-result .bazi ul:first-child li:nth-child(2),
+.name-result .bazi ul:first-child li:nth-child(3),
+.name-result .bazi ul:first-child li:nth-child(4),
+.name-result .bazi ul:first-child li:nth-child(5) {
+    background-color: #f7f7f7;
+}
+
+.name-result .bazi ul:first-child li {
+    -webkit-box-shadow: inset -1px 0 0 0 #dcdcdc;
+    -moz-box-shadow: inset -1px 0 0 0 #dcdcdc;
+    box-shadow: inset -1px 0 0 0 #dcdcdc;
+}
+
+.name-result .bazi ul:first-child li:last-child {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.bazi-details {
+    background-color: #fff;
+    padding: 2vh 0;
+}
+
+.name-result .bazi-details p:nth-child(1),
+.name-result .bazi-details p:nth-child(2),
+.name-result .bazi-details p:nth-child(3),
+.name-result .bazi-details p:nth-child(4),
+.name-result .bazi-details p:nth-child(5) {
+    background-color: #fff;
+}
+
+.name-result .bazi-details p:nth-child(2n) {
+    background-color: #fefaf0;
+}
+
+.bazi-details .wuxing-pic {
+    width: 3em;
+    vertical-align: bottom;
+    margin-right: .5em;
+}
+
+.guansha {
+    padding: 2vh 0 0;
+}
+
+.guanshaList ul li {
+    color: #982324;
+    background-color: transparent;
+}
+
+.guansha .guanshaList {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.guanshaList ul li:first-child {
+    border-left: none;
+}
+
+.guanshaList ul li:last-child {
+    border-right: none;
+}
+
+.guanshaList ul:nth-child(2n) {
+    background-color: #f7f7f7;
+}
+
+.guansha>p.contact {
+    background-color: #5b5b5b;
+    color: #fdf3e2;
+    padding: .5em 0;
+}
+
+.guansha>p.contact .weixinAccount {
+    color: #fff;
+}
+
+.zodiac-detais-list {
+    background-color: #fff;
+    padding-top: 2vh;
+}
+
+.zodiac-details-pics {
+    margin-top: 2vh;
+}
+
+.zodiac-details-pics>div {
+    font-size: 0;
+    padding: 0 2vw;
+}
+
+.zodiac-details-pics>div span {
+    display: inline-block;
+    width: 25%;
+    border: none;
+    box-sizing: border-box;
+}
+
+.zodiac-details-pics>div span>em {
+    display: block;
+    background-color: #f5efe7;
+    border-radius: 5px;
+    margin: 2px;
+    padding: .5vh 0;
+}
+
+.zodiac-details-pics>div span.current>em {
+    background-color: #982324;
+}
+
+.zodiac-details-pics>div span.current i {
+    box-shadow: none;
+}
+
+.zodiac-details-pics>div span .shengxiao-pic {
+    display: block;
+    width: 20vw;
+    margin: 0 auto 1vh;
+    height: 17vw;
+    background: center no-repeat;
+    background-size: contain;
+    position: relative;
+}
+@media(min-width:750px){
+    .zodiac-details-pics>div span .shengxiao-pic{
+        width: auto;
+        background-size: auto;
+        height: 160px;
+    }
+}
+.zodiac-details-pics>div span .shengxiao-text {
+    display: block;
+    background: center no-repeat;
+    background-size: contain;
+    height: 5vw;
+}
+@media(min-width:750px){
+    .zodiac-details-pics>div span .shengxiao-text{
+        background-size: auto;
+    }
+}
+.zodiac-details-pics>div .shengxiao-item-1 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-1.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_1_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-2 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_2.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-2.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_2_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-3 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_3.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-3.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_3_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-4 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_4.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-4.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_4_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-5 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_5.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-5.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_5_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-6 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_6.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-6.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_6_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-7 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_7.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-7.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_7_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-8 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_8.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-8.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_8_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-9 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_9.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-9.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_9_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-10 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_10.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-10.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_10_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-11 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_11.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-11.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_11_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-12 .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_12.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-12.current .shengxiao-pic {
+    background-image: url(/new/shengxiao_pic_12_1.png)
+}
+
+.zodiac-details-pics>div .shengxiao-item-1 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-1.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_1_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-2 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_2.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-2.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_2_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-3 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_3.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-3.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_3_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-4 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_4.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-4.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_4_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-5 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_5.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-5.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_5_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-6 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_6.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-6.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_6_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-7 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_7.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-7.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_7_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-8 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_8.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-8.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_8_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-9 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_9.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-9.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_9_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-10 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_10.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-10.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_10_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-11 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_11.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-11.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_11_1.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-12 .shengxiao-text {
+    background-image: url(/new/shengxiao_text_12.png);
+}
+
+.zodiac-details-pics>div .shengxiao-item-12.current .shengxiao-text {
+    background-image: url(/new/shengxiao_text_12_1.png);
+}
+
+.zodiac-details-text ul {
+    display: block;
+}
+
+.zodiac-details-text li {
+    display: block;
+    width: 100%;
+}
+
+.zodiac-details-text:after {
+    display: none;
+}
+
+.zodiac-details-like-wrapper {
+    background-color: #982324;
+}
+
+.zodiac-details-dislike-wrapper {
+    background-color: #5b5b5b;
+}
+
+.zodiac-details-introduction {
+    padding-top: 2vh;
+}
+
+.zodiac-details-introduction li {
+    padding: 2vh 1em;
+}
+
+.zodiac-details-introduction li p {
+    margin-bottom: 2vh;
+    padding: .3em 1em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.zodiac-details-introduction li p:last-child {
+    margin-bottom: 0;
+}
+
+.zodiac-details-introduction p {
+    background-color: #fff;
+    color: #666;
+    margin: 0 auto;
+}
+
+.zodiac-details-introduction .title {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.zodiac-details-introduction .title img {
+    height: 8vw;
+}
+
+.namelist-intro-3 .text {
+    margin-bottom: 0;
+}
+
+.namelist-intro-3 .text>div {
+    background-color: #efefef;
+    margin: 0 2vw 2vh;
+    padding: 2vh 0;
+}
+
+.namelist-intro-3 .text>div:last-child {
+    margin-bottom: 0;
+}
+.namelist-intro-3 .text> div p{
+    position: relative;
+    padding-left: 2.5em;
+}
+.namelist-intro-3 .text > div p::before{
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background: url(../images/icon_1.png) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 1em;
+    top: .4em;
+}
+.namelist-intro-3 .text p.title {
+    color: #982324;
+    font-size: 150%;
+    font-weight: bold;
+    border-top: solid 1px #ddd;
+    padding-top: 2vh;
+    margin-top: 2vh;
+}
+
+.our-services-wrapper {
+    padding: 2vh 0;
+}
+
+.namelist-intro-3 p span {
+    color: #982324;
+}
+
+.text-contact-master {
+    padding: 2vh 5%;
+    background-color: #efefef;
+}
+
+.btn-order-now,
+.tips-copy-text {
+    padding: 2vh 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+}
+
+.btn-order-now {
+    background: #982324;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 135%;
+}
+
+.tips-copy-text {
+    background-color: #ffe6b3;
+    color: 333;
+}
+
+.tips-copy-text span {
+    color: #982324;
+}
+
+.services-flow {
+    font-size: 0;
+}
+
+.services-flow li {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: .3rem;
+}
+
+.services-flow li a {
+    display: block;
+    height: 50vw;
+    background-color: #efefef;
+    overflow: hidden;
+}
+@media(min-width:750px){
+    .services-flow li a{
+        height: auto;
+    }
+}
+.services-flow li:nth-child(2) a {
+    background-color: #fefaf0;
+}
+
+.services-flow li:nth-child(3) a {
+    background-color: #fff;
+}
+
+.services-flow li a img {
+    width: 50%;
+    display: block;
+    margin: 8vw auto 2vw;
+}
+
+.services-flow li a span {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 130%;
+}
+
+.services-flow-wrapper {
+    padding: 2vh 0 0;
+    background-color: #fff;
+    margin-bottom: 2vh;
+}
+
+.services-flow-wrapper .g-title-primary {
+    margin-bottom: 2vh;
+}
+
+.user-feedback-list {
+    padding: 2vh 0;
+}
+
+.user-feedback-list .g-title-primary {
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 2vh;
+}
+
+.uer-feedback-scroll ul {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.tips-add-dashi {
+    padding: 1em 0;
+}
+
+.name-list .list-itmes .list-item a {
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-color: #982324;
+    color: #666;
+}
+
+.aside-contact-group {
+    right: 0 !important;
+}
+
+/* 姓名详情页面 */
+
+.page-names-details .g-title-primary {
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+    border-bottom: solid 1px #ddd;
+}
+
+.name-details {
+    padding: 0;
+}
+
+.page-names-details {
+    background-color: #efefef;
+}
+
+.page-names-details .main-content-namelist .get-name-intro {
+    margin-top: 0;
+}
+
+.page-names-details .basic-info {
+    padding: 2vh 0 0;
+}
+
+.page-names-details .basic-info .g-title-primary {
+    margin-bottom: none;
+    border-bottom: none;
+}
+
+.page-names-details .basic-info .basic {
+    border-top: solid 1px #ddd;
+    margin-top: 2vh;
+}
+
+.page-names-details .basic-info .basic .item {
+    background-color: #fff;
+    padding: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    text-align: justify;
+}
+
+.page-names-details .basic-info .basic .item:nth-child(2n) {
+    background-color: #f7f7f7;
+}
+
+.name-result .basic .item>div+div p .user_sex,
+.name-result .basic .item>div+div p .user_family_name {
+    padding-left: 0;
+}
+
+.name-result .basic .item>div:first-child {
+    color: #982324;
+}
+
+.page-names-details .name-details-content .g-title-primary {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-bottom: 4vh;
+    border-bottom: solid 1px #ddd;
+}
+
+.name-result-basic {
+    text-align: center;
+    background: url(../images/bg_border_1.png) center no-repeat;
+    background-size: auto 100%;
+    padding: 2vh 0;
+    margin-bottom: 2vh;
+}
+
+.name-result-basic .name {
+    font-size: 300%;
+}
+
+.name-result-basic .evaluate {
+    font-size: 120%;
+    color: #982324;
+}
+
+.page-names-details .name-score {
+    color: #982324;
+}
+
+.name-explan-contact {
+    background-color: #982324;
+    border: none;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.name-explan-contact,
+.name-explan-contact span,
+.name-explan-contact .weixinAccount,
+.name-explan-contact .weixinAccount:visited,
+.name-explan-contact .weixinCode:visited,
+.name-explan-contact .weixinCodeText:visited {
+    color: #fff;
+}
+
+.name-explain .explain-sub-title {
+    background-color: #efefef;
+    color: #982324;
+    padding: 2vh 2vw;
+    font-size: 130%;
+}
+
+.name-zodiac-explain {
+    padding: 2vh 0 0;
+}
+
+.name-zodiac-explain .name-zodiac {
+    margin-bottom: 2vh;
+}
+
+.page-names-details .guansha .contact,
+.page-names-details .name-zodiac-explain .contact {
+    background-color: #982324;
+    color: #fff;
+    text-align: center;
+    padding: 2vh 0;
+}
+
+.name-zodiac-explain .contact .weixinAccount {
+    color: #fff;
+}
+
+.page-names-details .guansha {
+    margin-top: 0;
+    padding-top: 2vh;
+}
+
+.text-xingge {
+    padding: 2vh 0;
+}
+
+.text-xingge p {
+    padding: 0 4vw;
+}
+
+.name-lucky-wrapper,
+.name-lucky,
+.name-lucky>div:last-child {
+    margin-bottom: 0;
+}
+
+.page-names-details .contact-bottom {
+    padding: 2vh 0;
+    text-align: center;
+}
+
+.page-names-details .name-lucky h4 {
+    background-color: #efefef;
+}
+
+.page-names-details .name-lucky h4 span {
+    border-color: transparent !important;
+    color: #982324;
+}
+@media(min-width: 750px){
+    .g-title-primary img{
+        width: auto !important;
+    }
+    .zodiac-details-introduction .title img{
+        height: auto;
+    }
+    .site-main{
+        border-left: solid 1px #ddd;
+        border-right: solid 1px #ddd;
+    }
+    .btn-order-now:hover{
+        color: #fff;
+    }
+}

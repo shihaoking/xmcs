@@ -1,0 +1,94 @@
+﻿@charset "utf-8";
+.container {
+    background: #c02c31;
+    width: 100%;
+}
+.comWidth {
+    width: 95%;
+    margin: 0 auto;
+}
+.banner {
+    max-height: 2.57rem;
+    overflow: hidden;
+}
+.hdx {
+    width: 100%;
+    max-height: 4317rem;
+    overflow: hidden;
+    margin-top: .2rem;
+}
+/* 基本信息 */
+.information-warp {
+    border-radius: 5px;
+    background: #fef8ee;
+    border: 1px solid #eee1d5;
+    margin-top: .5rem;
+    padding-bottom: .43rem;
+}
+.information-warp .information-list li {
+    border-bottom: 2px solid #eee1d5;
+    padding-left: .2rem;
+    height: .95rem;
+    line-height: .95rem;
+    font-size: .32rem;
+}
+.information-list li > div:first-child {
+    color: #750b1c;
+}
+.input-text {
+    font-size: .32rem;
+}
+.information-list .selected-icon {
+    width: .33rem;
+    height: .33rem;
+    margin-right: 0.13rem;
+}
+.start-btn {
+    margin: .22rem .4rem .4rem;
+}
+.total-people {
+    font-size: .3rem;
+    color: #3d3c3d;
+    text-align: center;
+}
+.total-people i {
+    color: #d13036;
+}
+/* 财薄非定数 发达有玄机 */
+.img_list {
+   margin-top: .5rem;
+}
+
+/* 权威大师认证 */
+.bzcy-zs {
+    margin-top: .5rem;
+}
+/* 用户的真实反馈 */
+.user-feedback {
+    width: 100%;
+    background: url('../images/bzjp-feedback.png');
+    background-size: 100% 100%;
+    padding: 1.2rem 0 .78rem;
+    margin-top: .5rem;
+}
+.pj-width {
+    margin-top: .3rem;
+}
+/* 底部的信息填写 */
+.last-information {
+    background-color: #fff;
+    padding: .23rem .25rem 0;
+    margin-top: .38rem;
+}
+.last-information .information-warp {
+    padding-bottom: .24rem;
+}
+.last-information .start-btn {
+    margin-top: .3rem;
+}
+/* 推荐列表 */
+.footer-logo {
+    background: #fff;
+    padding-top: .36rem;
+    padding-bottom: 1.57rem;
+}
