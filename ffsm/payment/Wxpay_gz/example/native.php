@@ -38,7 +38,7 @@ $input->SetTotal_fee($params['total_fee']);
 $input->SetTime_start(date("YmdHis"));
 $input->SetTime_expire(date("YmdHis", time() + 600));
 $input->SetGoods_tag($params['body']);
-$input->SetNotify_url("http://kyw.5988vip.cn/payment/Wxpay_gz/example/native_callback.php");
+$input->SetNotify_url("http://www.mtws.site/payment/Wxpay_gz/example/native_callback.php");
 $input->SetTrade_type("NATIVE");
 $input->SetProduct_id("123456789");
 $result = $notify->GetPayUrl($input);
@@ -86,11 +86,11 @@ body{font: 14px/1.5 'Microsoft YaHei';}
 <p class="green_words">微信支付</p>
 <div class="bc_c">
 <div class="bc_c_list">
-<div class="img_tel"><p class="pic"><img src="http://kyw.5988vip.cn/m/tu/weixinyindao.jpg" class="引导图片"></p><p class="words">打开手机微信，在“发现”菜单中点击“扫一扫”</p></div>
+<div class="img_tel"><p class="pic"><img src="http://www.mtws.site/m/tu/weixinyindao.jpg" class="引导图片"></p><p class="words">打开手机微信，在“发现”菜单中点击“扫一扫”</p></div>
 </div>
 <div class="bc_c_list">
 <div class="weixin"><p></p>
-<div id="code"><img src="http://kyw.5988vip.cn/payment/Wxpay_gz/example/qrcode.php?data=<?php echo urlencode($url2);?>"></div>
+<div id="code"><img src="http://www.mtws.site/payment/Wxpay_gz/example/qrcode.php?data=<?php echo urlencode($url2);?>"></div>
 <p></p>
 <p class="price">￥<span><?php echo ($params['total_fee']/100);?></span>元</p>
 <p class="green"><?php echo $_REQUEST['WIDbody'];?>、付款后查看测算结果</p></div>

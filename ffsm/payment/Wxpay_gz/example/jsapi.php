@@ -39,7 +39,7 @@ $input->SetTotal_fee($_REQUEST['money']*100);
 $input->SetTime_start(date("YmdHis"));
 $input->SetTime_expire(date("YmdHis", time() + 600));
 $input->SetGoods_tag($_REQUEST['des']);
-$input->SetNotify_url("http://kyw.5988vip.cn/payment/Wxpay_gz/example/native_callback.php");
+$input->SetNotify_url("http://www.mtws.site/payment/Wxpay_gz/example/native_callback.php");
 $input->SetTrade_type("JSAPI");
 $input->SetOpenid($openId);
 $order = WxPayApi::unifiedOrder($input);

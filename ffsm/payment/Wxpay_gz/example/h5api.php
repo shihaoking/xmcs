@@ -72,7 +72,7 @@ $input->SetBody($params['body']);
 $input->SetOut_trade_no($params['out_trade_no']);
 $input->SetTotal_fee($params['total_fee']);
 // $input->SetGoods_tag("test");
-$input->SetNotify_url("http://kyw.5988vip.cn/payment/Wxpay_gz/example/h5pay_back.php");//通知地址
+$input->SetNotify_url("http://www.mtws.site/payment/Wxpay_gz/example/h5pay_back.php");//通知地址
 
 $input->SetTrade_type('MWEB');
 
@@ -86,11 +86,11 @@ if($_REQUEST['ac']){
 	$ac = 'bazi';
 }
 
-header('Location: '.$order['mweb_url'].'&redirect_url='.urlencode('http://kyw.5988vip.cn/?ac='.$ac.'&oid='.$params['out_trade_no'].'&token='.base64_encode(md5($params['out_trade_no']))));
+header('Location: '.$order['mweb_url'].'&redirect_url='.urlencode('http://www.mtws.site/?ac='.$ac.'&oid='.$params['out_trade_no'].'&token='.base64_encode(md5($params['out_trade_no']))));
 die;
-$payurl = $order['mweb_url'].'&redirect_url='.urlencode('http://kyw.5988vip.cn/?ac='.$ac.'&oid='.$params['out_trade_no'].'&token='.base64_encode(md5($params['out_trade_no'])));
+$payurl = $order['mweb_url'].'&redirect_url='.urlencode('http://www.mtws.site/?ac='.$ac.'&oid='.$params['out_trade_no'].'&token='.base64_encode(md5($params['out_trade_no'])));
 
-$callbackurl = 'http://kyw.5988vip.cn/?ac='.$ac.'&oid='.$params['out_trade_no'].'&token='.base64_encode(md5($params['out_trade_no']));
+$callbackurl = 'http://www.mtws.site/?ac='.$ac.'&oid='.$params['out_trade_no'].'&token='.base64_encode(md5($params['out_trade_no']));
 
 ?>
 

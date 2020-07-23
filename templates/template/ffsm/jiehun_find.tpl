@@ -9,7 +9,7 @@
 	<meta content="telephone=no" name="format-detection"/>
 	<link rel="shortcut icon" href="/statics/ffsm/favicon.ico"/>
 	<link href="/statics/ffsm/bazijp/wap.min-v=0817.css" rel="stylesheet" type="text/css"/>
-	<link href="http://kyw.5988vip.cn/statics/ffsm/bazijp/style1.min.css" rel="stylesheet" type="text/css"/>
+	<link href="http://www.mtws.site/statics/ffsm/bazijp/style1.min.css" rel="stylesheet" type="text/css"/>
 	<script src="https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
@@ -369,7 +369,7 @@
             </div>
             <p class="kefu_point">如果对结果有不懂，或者想深度和大师一对一私聊的话，可以点击下面的按钮和大师沟通。</p>
             <div class="kefu_btn">与大师互动问答</div>
-<audio src="https://kyw.5988vip.cn/m/video/bzjp_bottom.mp3" id="Atwo"></audio>
+<audio src="https://www.mtws.site/m/video/bzjp_bottom.mp3" id="Atwo"></audio>
         </div>
 <img src="/statics/ffsm/bazijp/img/kfzx.png" width="100%" alt="">
 <img src="/statics/ffsm/bazijp/img/pingjia.jpg" width="100%" alt="">
@@ -561,7 +561,7 @@ window.addEventListener("popstate", function(e) {pop_check();}, false);
                 }else{
                     $('.dashi_point_box').removeClass('play');
                     $(this).addClass('play');
-                    $('#myAudio').attr('src','https://kyw.5988vip.cn/m/video/bzjp_top.mp3');
+                    $('#myAudio').attr('src','https://www.mtws.site/m/video/bzjp_top.mp3');
                     audio.play();
                     $(this).next('.dashi_audio_time').removeClass('newMsg');
                 }
@@ -574,7 +574,7 @@ window.addEventListener("popstate", function(e) {pop_check();}, false);
                 }else{
                     $('.dashi_point_box').removeClass('play');
                     $(this).addClass('play');
-                    $('#myAudio').attr('src','https://kyw.5988vip.cn/m/video/bzjp_bottom.mp3');
+                    $('#myAudio').attr('src','https://www.mtws.site/m/video/bzjp_bottom.mp3');
                     audio.play();
                     $(this).next('.dashi_audio_time').removeClass('newMsg');
                 }
@@ -583,12 +583,12 @@ window.addEventListener("popstate", function(e) {pop_check();}, false);
 
         audio.addEventListener("play", function(){
 
-            if($('#myAudio').attr('src')=='https://kyw.5988vip.cn/m/video/bzjp_top.mp3'){
+            if($('#myAudio').attr('src')=='https://www.mtws.site/m/video/bzjp_top.mp3'){
                 clearTimeout(clearTime);
                 $('#Atwo').attr('src',"/statics/ffsm/bazijp/img/img_yuyin3.png");
                 setTimeAnimation('#Aone');
             }
-            if($('#myAudio').attr('src')=='https://kyw.5988vip.cn/m/video/bzjp_bottom.mp3'){
+            if($('#myAudio').attr('src')=='https://www.mtws.site/m/video/bzjp_bottom.mp3'){
                 clearTimeout(clearTime);
                 $('#Aone').attr('src',"/statics/ffsm/bazijp/img/img_yuyin3.png");
                 setTimeAnimation('#Atwo');
@@ -597,11 +597,11 @@ window.addEventListener("popstate", function(e) {pop_check();}, false);
         
         audio.addEventListener("pause", function(){
             $('.dashi_point_box').removeClass('play');
-            if($('#myAudio').attr('src')=='https://kyw.5988vip.cn/m/video/bzjp_top.mp3'){
+            if($('#myAudio').attr('src')=='https://www.mtws.site/m/video/bzjp_top.mp3'){
                 clearTimeout(clearTime);
                 $('#Aone').attr('src',"/statics/ffsm/bazijp/img/img_yuyin3.png");
             }
-            if($('#myAudio').attr('src')=='https://kyw.5988vip.cn/m/video/bzjp_bottom.mp3'){
+            if($('#myAudio').attr('src')=='https://www.mtws.site/m/video/bzjp_bottom.mp3'){
                 clearTimeout(clearTime);
                 $('#Atwo').attr('src',"/statics/ffsm/bazijp/img/img_yuyin3.png");
             }

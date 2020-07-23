@@ -36,9 +36,9 @@ class ctl_pay {
 			$row = mod_order::get_order($oid);
 			$orders = array('WIDout_trade_no'=>$row['oid'],'WIDsubject'=>$row['des'],'WIDtotal_amount'=>$row['money'],'WIDbody'=>$row['des']);
           if(preg_match('/(blackberry|configuration\/cldc|hp |hp-|htc |htc_|htc-|iemobile|kindle|midp|mmp|motorola|mobile|nokia|opera mini|opera |Googlebot-Mobile|YahooSeeker\/M1A1-R2D2|android|iphone|ipod|mobi|palm|palmos|pocket|portalmmm|ppc;|smartphone|sonyericsson|sqh|spv|symbian|treo|up.browser|up.link|vodafone|windows ce|xda |xda_)/i', $_SERVER['HTTP_USER_AGENT'])){
-					 $gourl = 'http://kyw.5988vip.cn/payment/alipay_wap/wappay/pay.php?'.http_build_query($orders);
+					 $gourl = 'http://www.mtws.site/payment/alipay_wap/wappay/pay.php?'.http_build_query($orders);
 				}else{
-					 $gourl = 'http://kyw.5988vip.cn/payment/alipay_pc/wappay/pay.php?'.http_build_query($orders);
+					 $gourl = 'http://www.mtws.site/payment/alipay_pc/wappay/pay.php?'.http_build_query($orders);
 				}
          
 			
@@ -46,7 +46,7 @@ class ctl_pay {
         }else{
             
             if ( strpos($_SERVER['HTTP_USER_AGENT'], 'MicroMessenger') !== false ) {//微信内
-					header('Location: http://kyw.5988vip.cn/getcode.php?auk=demo3&oid='.$oid);
+					header('Location: http://www.mtws.site/getcode.php?auk=demo3&oid='.$oid);
 					
 					exit;
                 }else{
@@ -61,7 +61,7 @@ class ctl_pay {
 					$row = mod_order::get_order($oid);
 					$orders = array('WIDout_trade_no'=>$row['oid'],'WIDsubject'=>$row['des'],'WIDtotal_amount'=>$row['money'],'WIDbody'=>$row['des']);
 					$httpdata = http_build_query($orders);
-					header('Location: http://kyw.5988vip.cn/payment/Wxpay_gz/example/native.php?'.$httpdata);
+					header('Location: http://www.mtws.site/payment/Wxpay_gz/example/native.php?'.$httpdata);
 					die;
 				}
                                                                             
@@ -82,13 +82,13 @@ class ctl_pay {
 		if($type=="alipay"){//支付宝支付
 			$row = mod_order::get_order($oid);
 			$orders = array('WIDout_trade_no'=>$row['oid'],'WIDsubject'=>$row['des'],'WIDtotal_fee'=>$row['money'],'type'=>'alipay');
-			$gourl = 'http://kyw.5988vip.cn/SDK/epayapi.php?'.http_build_query($orders);
+			$gourl = 'http://www.mtws.site/SDK/epayapi.php?'.http_build_query($orders);
             mod_order::up_order(array('paytype'=>2,'paytime'=>date('Y-m-d G:i:s',time()))," `oid`='".$oid."'");
         }else{
             
             $row = mod_order::get_order($oid);
 			$orders = array('WIDout_trade_no'=>$row['oid'],'WIDsubject'=>$row['des'],'WIDtotal_fee'=>$row['money'],'type'=>'wxpay');
-			$gourl = 'http://kyw.5988vip.cn/SDK/epayapi.php?'.http_build_query($orders);
+			$gourl = 'http://www.mtws.site/SDK/epayapi.php?'.http_build_query($orders);
             mod_order::up_order(array('paytype'=>1,'paytime'=>date('Y-m-d G:i:s',time()))," `oid`='".$oid."'");
 			
             
@@ -105,7 +105,7 @@ class ctl_pay {
 			$row = mod_order::get_order($oid);
     		$ac=mod_order::typetochannel($row['type']);
 			$orders = array('WIDout_trade_no'=>$row['oid'],'WIDsubject'=>$row['des'],'WIDtotal_fee'=>$row['money'],'ac'=>$ac);
-			$gourl = 'http://kyw.5988vip.cn/payment/paypal/paypal.php?'.http_build_query($orders);
+			$gourl = 'http://www.mtws.site/payment/paypal/paypal.php?'.http_build_query($orders);
             mod_order::up_order(array('paytype'=>3,'paytime'=>date('Y-m-d G:i:s',time()))," `oid`='".$oid."'");
 
 		#echo $gourl;
@@ -124,7 +124,7 @@ class ctl_pay {
             if (1 == 1) {//查看商户号以及订单状态
                 mod_order::up_order(array('trade_status' => $trade_no,'status'=>1), 'oid=' . $out_trade_no);
                 $ac=mod_order::typetochannel($orders['type']);
-                header("Location:http://kyw.5988vip.cn/?ac=".$ac."&oid=".$out_trade_no."&token=".base64_encode(md5($out_trade_no)));
+                header("Location:http://www.mtws.site/?ac=".$ac."&oid=".$out_trade_no."&token=".base64_encode(md5($out_trade_no)));
                 exit;
             }
         }
@@ -136,7 +136,7 @@ class ctl_pay {
         $orders = mod_order::get_order($out_trade_no);
 
 		$ac=mod_order::typetochannel($orders['type']);
-		header("Location:http://kyw.5988vip.cn/?ac=".$ac."&oid=".$out_trade_no."&token=".base64_encode(md5($out_trade_no)));
+		header("Location:http://www.mtws.site/?ac=".$ac."&oid=".$out_trade_no."&token=".base64_encode(md5($out_trade_no)));
 		exit;
     }
 	public function notify_paypal() {
@@ -182,11 +182,11 @@ class ctl_pay {
         //$orders['WIDtotal_amount'] = $row['money'];
       $httpdata = http_build_query($orders);
 	  
-	  //echo 'http://kyw.5988vip.cn/payment/Wxpay/example/h5api.php?'.$httpdata;die;
+	  //echo 'http://www.mtws.site/payment/Wxpay/example/h5api.php?'.$httpdata;die;
 
-   	  header('Location: http://kyw.5988vip.cn/payment/Wxpay_gz/example/h5api.php?'.$httpdata);
+   	  header('Location: http://www.mtws.site/payment/Wxpay_gz/example/h5api.php?'.$httpdata);
 	  die; 
-      send('http://kyw.5988vip.cn/payment/Wxpay_gz/example/h5api.php',$orders);
+      send('http://www.mtws.site/payment/Wxpay_gz/example/h5api.php',$orders);
       die;
 
     }
@@ -228,7 +228,7 @@ class ctl_pay {
 		$row = mod_order::get_order($oid);
 		
 		$ac=mod_order::typetochannel($row['type']);
-		$row['url'] = "http://kyw.5988vip.cn/?ac=".$ac."&oid=".$oid."&token=".base64_encode(md5($oid));
+		$row['url'] = "http://www.mtws.site/?ac=".$ac."&oid=".$oid."&token=".base64_encode(md5($oid));
 		$row['oid'] = $oid;
         $sub_openid = $openid;
 		
@@ -237,7 +237,7 @@ class ctl_pay {
 		$data['des'] = $row['des'];
 		$data['money'] = $row['money'];
 
-        $return = send('http://kyw.5988vip.cn/payment/Wxpay_gz/example/jsapi.php',$data);
+        $return = send('http://www.mtws.site/payment/Wxpay_gz/example/jsapi.php',$data);
 		
 		$return = json_decode($return,true);
 		

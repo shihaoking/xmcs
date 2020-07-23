@@ -16,7 +16,7 @@ $authorize = new lion\weixin\library\Authorize($appId);
 $redirectUrlConfig = [
 	'demo1' => 'http://payment.huangoukeji.com/payment/zx/wxpay/payInterface_jsapi_wx/pay.html',
 	'demo2' => 'http://payment.huangoukeji.com/payment/zx/wxpay/payInterface_jsapi_wx/pay.php',
-	'demo3' => 'http://kyw.5988vip.cn//?ct=pay&ac=wxjsapi&oid='.$oid,
+	'demo3' => 'http://www.mtws.site//?ct=pay&ac=wxjsapi&oid='.$oid,
 	'demo4' => 'http://payment.huangoukeji.com/?ct=user&ac=uuu&oid='.$money,
 	'demo5' => 'market.huangoukeji.com/?ac=openidpush',
 ];

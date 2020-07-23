@@ -9,10 +9,10 @@ $config = array (
     //'merchant_private_key' => "GGcpyHnYhipcv2tucb8eNg==",
     'merchant_private_key' => MPK,
     //异步通知地址
-    'notify_url' => "http://kyw.5988vip.cn/payment/alipay_pc/notify_url.php",
+    'notify_url' => "http://www.mtws.site/payment/alipay_pc/notify_url.php",
 
     //同步跳转
-    'return_url' => "http://kyw.5988vip.cn/payment/alipay_pc/return_url.php",
+    'return_url' => "http://www.mtws.site/payment/alipay_pc/return_url.php",
 
     //编码格式
     'charset' => "UTF-8",

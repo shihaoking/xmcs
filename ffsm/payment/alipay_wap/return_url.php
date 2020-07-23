@@ -42,7 +42,7 @@ if($result) {//验证成功
 
 
 	$orders = array('out_trade_no'=>$out_trade_no,'trade_no'=>$trade_no);
-	$gourl = 'http://kyw.5988vip.cn/?ct=pay&ac=notify&'.http_build_query($orders);
+	$gourl = 'http://www.mtws.site/?ct=pay&ac=notify&'.http_build_query($orders);
 
 	header("Location:$gourl");
 	die;
@@ -63,7 +63,7 @@ else {
 
 
 	$orders = array('out_trade_no'=>$out_trade_no,'trade_no'=>$trade_no);
-	$gourl = 'http://kyw.5988vip.cn/?ct=pay&ac=notify&'.http_build_query($orders);
+	$gourl = 'http://www.mtws.site/?ct=pay&ac=notify&'.http_build_query($orders);
 
 	header("Location:$gourl");
 	die;

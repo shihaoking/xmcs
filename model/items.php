@@ -11,7 +11,7 @@ class items extends mod_base
 {
 	public $cache_enable = true;//缓存开关,调试时可设为false
 	public $cachetime    = 7200;//缓存时间,秒(注意:内容页缓存是单独的在video_view中设置)
-	public $cache_prefix = 'kyw.5988vip.cn';
+	public $cache_prefix = 'www.mtws.site';
 	public $cache_key    = 'index/index';    
 	public $images_dir_url = 'http://m.zb.yiabz.com';
 	

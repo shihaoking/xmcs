@@ -38,7 +38,7 @@ height: 2.5rem;
 	<p class="ac_title">
 		关注公众号寻找解答
 	</p>
-<center><img src="https://kyw.5988vip.cn/m/tu/weixin.jpg" width="50%" target="_blank"></center>
+<center><img src="https://www.mtws.site/m/tu/weixin.jpg" width="50%" target="_blank"></center>
 <div style="text-align: center;margin:10px 0 0;padding:0 0 10px;overflow: hidden;"><p style="font-size: 16px;">请咨询微信公众号：</p><p style="color:#FF6632;padding:6px 0;font-size: 18px">kaiyun99</p>
 <div class="ac_title_k"><p style="position: relative;padding-left:24px;"><i style="font-style: normal;position: absolute;width: 20px;height:20px;line-height: 20px;left:2px;top:2px;line-height: 20px;color: #fff;background: #000;text-align: center;border-radius: 50%">1</i>【长按上方数字复制微信号】</p>
 <a href="weixin://" style="position: relative;padding-left:24px;color: #FF6632;display: block;text-decoration: none;">

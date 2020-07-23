@@ -38,18 +38,18 @@
    <br/>
    <br/>
    <span style="display:-moz-inline-box; display:block; width:400px;">测算项目：所有测算项目主页  <font color='red'>支持主页上所有项目提成</font><br/>
-   <textarea cols="20" rows="10" id="biao1" style="width: 360px;height: 20px;">https://kyw.5988vip.cn/?dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(1)" value="点击复制链接" /></span><br/>
+   <textarea cols="20" rows="10" id="biao1" style="width: 360px;height: 20px;">https://www.mtws.site/?dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(1)" value="点击复制链接" /></span><br/>
    <span style="display:-moz-inline-box; display:block; width:400px;">测算项目：电脑端测算页面  <font color='red'>59.9 ￥</font><br/>
-   <textarea cols="20" rows="10" id="biao2" style="width: 360px;height: 20px;">https://kyw.5988vip.cn/?ac=pc&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(2)" value="点击复制链接" /> 
+   <textarea cols="20" rows="10" id="biao2" style="width: 360px;height: 20px;">https://www.mtws.site/?ac=pc&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(2)" value="点击复制链接" />
    </span><br/>
    <span style="display:-moz-inline-box; display:block; width:400px;">测算项目：H5合婚测算  <font color='red'>59.9 ￥</font><br/>
-   <textarea cols="20" rows="10" id="biao3" style="width: 360px;height: 20px;">https://kyw.5988vip.cn/?ac=hehun&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(3)" value="点击复制链接" /> 
+   <textarea cols="20" rows="10" id="biao3" style="width: 360px;height: 20px;">https://www.mtws.site/?ac=hehun&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(3)" value="点击复制链接" />
    </span><br/>
    <span style="display:-moz-inline-box; display:block; width:400px;">测算项目：H5月老姻缘测算  <font color='red'>39.9 ￥</font><br/>
-   <textarea cols="20" rows="10" id="biao4" style="width: 360px;height: 20px;">https://kyw.5988vip.cn/?ac=bzyy&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(4)" value="点击复制链接" /> 
+   <textarea cols="20" rows="10" id="biao4" style="width: 360px;height: 20px;">https://www.mtws.site/?ac=bzyy&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(4)" value="点击复制链接" />
    </span><br/>
    <span style="display:-moz-inline-box; display:block; width:400px;">测算项目：H5八字详批  <font color='red'>58.8 ￥</font><br/>
-   <textarea cols="20" rows="10" id="biao5" style="width: 360px;height: 20px;">https://kyw.5988vip.cn/?ac=bazi&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(5)" value="点击复制链接" /> 
+   <textarea cols="20" rows="10" id="biao5" style="width: 360px;height: 20px;">https://www.mtws.site/?ac=bazi&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(5)" value="点击复制链接" />
    </span><br/>
 </div>
 
@@ -60,19 +60,19 @@
    <br/>
    <br/>
    <span style="display:-moz-inline-box; display:block; width:400px;">测算项目：H52019爱情运分析  <font color='red'>29.9 ￥</font><br/>
-   <textarea cols="20" rows="10" id="biao6" style="width: 360px;height: 20px;">https://kyw.5988vip.cn/?ac=aiqingyun&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(6)" value="点击复制链接" /> 
+   <textarea cols="20" rows="10" id="biao6" style="width: 360px;height: 20px;">https://www.mtws.site/?ac=aiqingyun&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(6)" value="点击复制链接" />
    </span><br/>
    <span style="display:-moz-inline-box; display:block; width:400px;">测算项目：H5姓名配对  <font color='red'>9.9 ￥</font><br/>
-   <textarea cols="20" rows="10" id="biao7" style="width: 360px;height: 20px;">https://kyw.5988vip.cn/?ac=xmpd&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(7)" value="点击复制链接" /> 
+   <textarea cols="20" rows="10" id="biao7" style="width: 360px;height: 20px;">https://www.mtws.site/?ac=xmpd&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(7)" value="点击复制链接" />
    </span><br/>
    <span style="display:-moz-inline-box; display:block; width:400px;">测算项目：H5八字详批精批  <font color='red'>29.9 ￥</font><br/>
-   <textarea cols="20" rows="10" id="biao8" style="width: 360px;height: 20px;">https://kyw.5988vip.cn/?ac=bazijp&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(8)" value="点击复制链接" /> 
+   <textarea cols="20" rows="10" id="biao8" style="width: 360px;height: 20px;">https://www.mtws.site/?ac=bazijp&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(8)" value="点击复制链接" />
    </span><br/>
    <span style="display:-moz-inline-box; display:block; width:400px;">测算项目：H5许愿点灯  <font color='red'>8.8 ￥</font><br/>
-   <textarea cols="20" rows="10" id="biao9" style="width: 360px;height: 20px;">https://kyw.5988vip.cn/?ac=xydd&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(9)" value="点击复制链接" /> 
+   <textarea cols="20" rows="10" id="biao9" style="width: 360px;height: 20px;">https://www.mtws.site/?ac=xydd&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(9)" value="点击复制链接" />
    </span><br/>
    <span style="display:-moz-inline-box; display:block; width:400px;">测算项目：H5号码解析  <font color='red'>8.8 ￥</font><br/>
-   <textarea cols="20" rows="10" id="biao10" style="width: 360px;height: 20px;">https://kyw.5988vip.cn/?ac=hmjx&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(10)" value="点击复制链接" /> 
+   <textarea cols="20" rows="10" id="biao10" style="width: 360px;height: 20px;">https://www.mtws.site/?ac=hmjx&dl=<{$users.uid}></textarea><br/><input type="button" onClick="copyUrl2(10)" value="点击复制链接" />
    </span><br/>
 </div>
     <div style="line-height:28px;width:525px;padding-top:10px;float: left;">
