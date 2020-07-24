@@ -19,7 +19,7 @@ define('PATH_DM_CONFIG', PATH_CONFIG . '/dm_config');
 define('COOKIE_DOMAIN', '');
 define('PHP_ERROR_LOG', false);//正式线上要改为false
 //主应用URL
-define('URL', 'http://testmyname.site/');
+define('URL', 'http://www.mtws.site/');
 
 
 define('FILTER_KEYWORD', '115');//过滤词库  115 orther all

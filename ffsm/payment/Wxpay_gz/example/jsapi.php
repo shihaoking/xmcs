@@ -2,9 +2,7 @@
 ini_set('date.timezone','Asia/Shanghai');
 //error_reporting(E_ERROR);
 require_once "../lib/WxPay.Api.php";
-
-
-
+require_once '../../../../config/inc_config.php';
 require_once "WxPay.JsApiPay.php";
 require_once 'log.php';
 
@@ -39,7 +37,7 @@ $input->SetTotal_fee($_REQUEST['money']*100);
 $input->SetTime_start(date("YmdHis"));
 $input->SetTime_expire(date("YmdHis", time() + 600));
 $input->SetGoods_tag($_REQUEST['des']);
-$input->SetNotify_url("http://www.mtws.site/payment/Wxpay_gz/example/native_callback.php");
+$input->SetNotify_url(URL."payment/Wxpay_gz/example/native_callback.php");
 $input->SetTrade_type("JSAPI");
 $input->SetOpenid($openId);
 $order = WxPayApi::unifiedOrder($input);
