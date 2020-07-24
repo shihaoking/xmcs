@@ -109,11 +109,18 @@ body{font: 14px/1.5 'Microsoft YaHei';}
         if (inquiry_lock) {
             return;
         }
+
+        inquiry_lock = 1;
         $.get('/?ct=pay&ac=scanquery&oid=<?php echo $params['out_trade_no']; ?>', {t: Date.parse(new Date())}, function (data) {
+            var firstIndex = data.indexOf('{');
+            data = data.substr(firstIndex, data.length - firstIndex);
+            data = JSON.parse(data);
             if (data.status) {
                 inquiry = 1;
                 $('div.weixin .green').html('支付成功');
                 window.location = data.url;
+            } else {
+                inquiry_lock = 0;
             }
         }, 'json');
     }
