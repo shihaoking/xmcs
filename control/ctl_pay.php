@@ -238,10 +238,10 @@ class ctl_pay {
 		$data['money'] = $row['money'];
 
         $return = send('http://www.mtws.site/payment/Wxpay_gz/example/jsapi.php',$data);
-		
-		$return = json_decode($return,true);
-		
-		
+
+        $firstScop = strpos($return,'{');
+        $return = json_decode(substr($return,$firstScop,strlen($return)-$firstScop), true);
+
 		if($return){
 			$rows["appId"]= $return["appId"]; //公众号名称，由商户传入
 			$rows["timeStamp"]= $return["timeStamp"]; //时间戳，自1970 年以来的秒数
