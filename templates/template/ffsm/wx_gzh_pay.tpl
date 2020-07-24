@@ -18,9 +18,12 @@
            "package": "<{$pay_info.package}>",
            "signType": "<{$pay_info.signType}>", //微信签名方式:
            "paySign": "<{$pay_info.paySign}>" //微信签名
-         }, function(res) {
-           //window.location.href = "<{$row.url}>";
-           inquiry();
+         }, function (res) {
+           if (res && res.err_msg === "get_brand_wcpay_request:ok") {
+             inquiry();
+           } else {
+             window.location.href = "<{$row.url}>";
+           }
          });
        }
        if(typeof WeixinJSBridge == "undefined") {
