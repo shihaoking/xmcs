@@ -56,7 +56,5 @@ require_once '../../../../config/inc_config.php';
 
             $sql = 'UPDATE `ffsm_orders` SET `status` = "1",`paytype`="1" WHERE `oid` = "'.$oid.'"';
             mysql_query($sql);
-            file_put_contents('1.txt',1);
-
         }
 
