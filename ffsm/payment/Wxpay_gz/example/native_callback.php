@@ -47,9 +47,6 @@ require_once '../../../../config/inc_config.php';
 	}
 
         $result = WxPayResults::Init($xml);
-		
-		file_put_contents('result.txt',json_encode($result));
-
 
         mysql_connect($GLOBALS['config']['db']['host']['master'],$GLOBALS['config']['db']['user'],$GLOBALS['config']['db']['pass']);
         mysql_select_db($GLOBALS['config']['db']['name']);
@@ -61,7 +58,5 @@ require_once '../../../../config/inc_config.php';
 
             $sql = 'UPDATE `ffsm_orders` SET `status` = "1",`paytype`="1" WHERE `oid` = "'.$oid.'"';
             mysql_query($sql);
-            file_put_contents('2.txt',1);
-
         }
 
