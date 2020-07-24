@@ -19,8 +19,8 @@
            "signType": "<{$pay_info.signType}>", //微信签名方式:
            "paySign": "<{$pay_info.paySign}>" //微信签名
          }, function(res) {
-           // window.location.href = "<{$row.url}>";
-           inquiry();
+           window.location.href = "<{$row.url}>";
+           //inquiry();
          });
        }
        if(typeof WeixinJSBridge == "undefined") {
