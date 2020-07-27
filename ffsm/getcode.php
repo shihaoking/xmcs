@@ -16,8 +16,8 @@ $authorize = new lion\weixin\library\Authorize($appId);
 $redirectUrlConfig = [
 	'demo1' => 'http://www.mtws.site/payment/zx/wxpay/payInterface_jsapi_wx/pay.html',
 	'demo2' => 'http://www.mtws.site/payment/zx/wxpay/payInterface_jsapi_wx/pay.php',
-	'demo3' => 'http://www.mtws.site/?ct=pay&ac=wxjsapi&oid='.$oid,
-	'demo4' => 'http://www.mtws.site/?ct=user&ac=uuu&oid='.$money,
+	'demo3' => 'http://www.mtws.site?ct=pay&ac=wxjsapi&oid='.$oid,
+	'demo4' => 'http://www.mtws.site?ct=user&ac=uuu&oid='.$money,
 	'demo5' => 'www.mtws.site/?ac=openidpush',
 ];
 $authorize->authorizeCodeToUrl($redirectUrlConfig);
